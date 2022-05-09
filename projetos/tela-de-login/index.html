@@ -5,30 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+
+    <link rel="shortcut icon" href="src/images/user.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/style/reset.css">
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/index.css">
 </head>
 <body>
     <main>
-        <h1>Login</h1>
-        <form action="" method="post">
+        <div id="formulario">
+            <img src="src/images/enter (1).png" alt="foto-user">
+            <h1>Login</h1>
             <div>
                 <label for="login">Login:</label>
-                <br>
-                <input type="text" name="" id="login">
+                <input type="text" name="" id="login" placeholder="Usuário">
             </div>
-
             <div>
                 <label for="senha">Senha:</label>
-                <br>
-                <input type="password" name="" id="">
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+                <button onclick="ver_senha()" id="mostra-senha"><img src="src/images/eye.png" alt=""></button>
             </div>
-
-            <div>
-                <a href="">Criar conta</a>
-                <a href="">Esqueceu sua senha?</a>
+            <div id="links">
+                <a href="new-account.html" id="nova-conta">Criar conta</a>
+                <a href="forgot-password.html" id="esqueceu-senha">Esqueceu sua senha?</a>
             </div>
-
-            <button>Entrar</button>
-        </form>
+            <button><p>Entrar</p></button>
+        </div>
     </main>
+    <script src="src/js/script.js"></script>
 </body>
 </html>

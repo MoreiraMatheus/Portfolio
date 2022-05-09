@@ -1,0 +1,30 @@
+h1{
+    border-bottom: 3px solid var(--cor3);
+}
+
+#formulario{
+    margin: auto;
+    width: 350px;
+    height: 230px;
+    padding: 10px;
+}
+
+#senha{
+    display: inline-block;
+    width: 80%;
+}
+
+#mostra-senha{
+    width: 50px;
+    display: inline-block;
+}
+
+#mostra-senha > img{
+    margin: -6px auto;
+}
+
+#links{
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
