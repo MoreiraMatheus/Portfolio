@@ -60,6 +60,12 @@ a{
     text-decoration: none;
 }
 
+#voltar{
+    margin: 3px;
+    padding: 3px;
+}
+
+
 a:hover{
   text-decoration: underline;  
 }
@@ -75,7 +81,7 @@ button{
     background-color: var(--cor2);
     color: var(--cor3);
     cursor: pointer;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 button:hover{

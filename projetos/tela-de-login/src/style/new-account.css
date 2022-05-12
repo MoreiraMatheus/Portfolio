@@ -1,0 +1,20 @@
+p{
+    font-weight: 600;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+#sexo{
+    margin-left: 30px;
+}
+
+#sexo > label{
+    display: inline;
+}
+
+.radio-button{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+

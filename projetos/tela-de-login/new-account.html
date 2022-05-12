@@ -8,10 +8,40 @@
 
     <link rel="stylesheet" href="src/style/reset.css">
     <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/new-account.css">
 </head>
 <body>
     <main>
-        <h1>nada por enquanto</h1>
+        <a href="index.html">
+            <img src="src/images/back.png" alt="seta de voltar" id="voltar">
+        </a>
+        <section>
+            <div>
+                <label for="nome">Nome Completo:</label>
+                <input type="text" name="" id="nome">
+            </div>
+
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" name="" id="idade">
+            </div>
+            
+            <div id="sexo">
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" id="masc" class="radio-button" checked>
+                <label for="masc">masculino</label>
+                <br>
+                <input type="radio" name="sexo" id="fem" class="radio-button">
+                <label for="fem">feminino</label>
+            </div>
+
+            <div>
+                <label for="">e-mail:</label>
+                <input type="email" name="" id="email">
+            </div>
+
+            <button>Cadastrar</button>
+        </section>
     </main>
 </body>
 </html>
