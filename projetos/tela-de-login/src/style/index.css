@@ -1,11 +1,6 @@
-h1{
-    border-bottom: 3px solid var(--cor3);
-}
-
 #formulario{
     margin: auto;
     width: 350px;
-    height: 230px;
     padding: 10px;
 }
 

@@ -4,6 +4,12 @@ p{
     margin-bottom: 10px;
 }
 
+section{
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+}
+
 #sexo{
     margin-left: 30px;
 }
@@ -18,3 +24,6 @@ p{
     height: 15px;
 }
 
+button{
+    margin-top: 12px;
+}
