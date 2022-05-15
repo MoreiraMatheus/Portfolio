@@ -21,16 +21,18 @@
                 <label for="login">Login:</label>
                 <input type="text" name="" id="login" placeholder="Usuário">
             </div>
+
             <div>
                 <label for="senha">Senha:</label>
                 <input type="password" name="senha" id="senha" placeholder="Senha">
                 <button onclick="ver_senha()" id="mostra-senha"><img src="src/images/eye.png" alt=""></button>
             </div>
+            
             <div id="links">
                 <a href="new-account.html" id="nova-conta">Criar conta</a>
                 <a href="forgot-password.html" id="esqueceu-senha">Esqueceu sua senha?</a>
             </div>
-            <button><p>Entrar</p></button>
+            <button onclick="entrar()"><p>Entrar</p></button>
         </div>
     </main>
     <script src="src/js/index.js"></script>
