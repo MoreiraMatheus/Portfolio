@@ -7,7 +7,7 @@ Atualmente sou estudante de Análise e desenvolvimento de sistemas e busco sempr
 # O que já fiz
 Confira abaixo alguns dos meus projetos:
 
-[Clique aqui para visitar meu portifolio na web](https://moreiramatheus.github.io/Portfolio/index.html)
+[Clique aqui para visitar meu portifolio na web](https://moreiramatheus.github.io/Portfolio/)
 
 * [Tela de login](https://moreiramatheus.github.io/Portfolio/projetos/tela-de-login/)
 * [Calculadora usando JS](https://moreiramatheus.github.io/calculadora-js/)
