@@ -10,18 +10,44 @@ section{
     padding: 10px;
 }
 
+#nome-div{
+    margin-bottom: 0px;
+}
+
+#idade-div{
+    display: inline-block;
+    margin: 3px 10px;
+}
+
+#idade{
+    margin-top: 16px;
+    width: 150px;
+}
+
 #sexo{
+    display: inline-block;
     margin-left: 30px;
+    padding-top: 2px;
+    height: 30px;
+}
+
+#sexo > p{
+    margin: 0px;
 }
 
 #sexo > label{
-    display: inline;
+    display: inline-block;
+    margin: 0px;
 }
 
 .radio-button{
     display: inline-block;
     width: 15px;
     height: 15px;
+}
+
+#email-div{
+    margin-top: 2px;
 }
 
 button{
