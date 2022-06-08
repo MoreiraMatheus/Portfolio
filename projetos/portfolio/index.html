@@ -11,28 +11,30 @@
     <link rel="stylesheet" href="src/style/footer.css">
 </head>
 <body>
-    <nav>
-        <input type="checkbox" name="troca-tema" id="troca-tema">
-        <button>Sobre mim</button>
-        <button>O que estudo</button>
-        <button>Minhas metas</button>
-    </nav> 
+    <header>
+        <nav>
+            <button>Sobre mim</button>
+            <button>O que estudo</button>
+            <button>Minhas metas</button>
+            <input type="checkbox" name="troca-tema" id="troca-tema">
+        </nav>
+    </header>
     <!-- o menu superior será fixo  -->
 
     <main>
-        <section>
-            <img src="#" alt="foto-minha">
-            <p>Olá, me chamo Matheus Moreira e esse é meu portifólio, seja bem vindo</p>
+        <section id="introducao">
+            <img src="src/img/foto.png" alt="foto-minha" class="lado_a_lado">
+            <p class="lado_a_lado">Olá, me chamo Matheus Moreira e esse é meu portifólio, seja bem vindo</p>
         </section>
 
-        <section>
+        <section id="sobre">
             <h1>Sobre mim</h1>
             <p>Sou estudante e programador em busca de uma oportunidade nesse ramo que tanto gosto</p>
-            <p>atualmente estou cursando Análise e desenvolvimento de sistemas e busco sempre aprimorar meus conhecimentos em tecnologias como <mark>HTML</mark> <mark>CSS</mark> <mark>JavaScript</mark></p>
+            <p>atualmente estou cursando Análise e desenvolvimento de sistemas e busco sempre aprimorar meus conhecimentos em tecnologias como HTML CSS JavaScript
             <p>tenho como meta de me tornar um desenvolvedor mobile e criar apps que sejam uteis no dia a dia das pessoas</p>
         </section>
 
-        <section>
+        <section id="estudo">
             <h1>O que estudo</h1>
             <ul>
                 <li><mark>HTML</mark></li>
@@ -41,7 +43,7 @@
             </ul>
         </section>
         
-        <section>
+        <section id="projetos">
             <h1>Projetos</h2>
             <ul>
                 <li>Pokedex</li>
