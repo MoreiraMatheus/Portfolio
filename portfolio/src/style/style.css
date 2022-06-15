@@ -15,6 +15,10 @@
     margin: 0px;
 }
 
+li{
+    list-style-type: none;
+}
+
 body{
     font-family: var(--fonte);
     font-weight: 400;
@@ -27,11 +31,26 @@ main{
 
 section{
     display: flex;
+    flex-direction: column;
     height: 68vh;
+    padding: 2vh;
 }
 
 h1{
     text-align: center;
+    border: 1px solid black;
+    height: 10%;
+}
+
+p{
+    text-align: center;
+}
+
+.conteudo{
+    border: 1px solid black;
+    margin: auto;
+    width: 95%;
+    height: 80%;
 }
 
 #sobre, #projetos{
@@ -39,6 +58,7 @@ h1{
 }
 
 #introducao{
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -55,20 +75,5 @@ h1{
 }
 
 #sobre{
-    flex-direction: column;
     justify-content: center;
-    padding: 2vh;
-}
-#sobre h1{
-    position: absolute;
-    left: 50%;
-    bottom: 15%;
-    transform: translate(-50%, 0);
-}
-#sobre p{
-    text-align: center;
-}
-
-#estudo{
-    flex-direction: column;
 }
