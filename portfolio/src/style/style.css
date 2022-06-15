@@ -26,13 +26,49 @@ main{
 }
 
 section{
-    height: 70vh;
+    display: flex;
+    height: 68vh;
+}
+
+h1{
+    text-align: center;
 }
 
 #sobre, #projetos{
     background-color: var(--cor04);
 }
 
-.lado_a_lado{
-    display: inline-block;
+#introducao{
+    justify-content: space-around;
+    align-items: center;
+}
+#introducao img{
+    width: 25vw;
+    height: 25vw;
+    border: 3px solid black;
+    padding: 1px;
+    border-radius: 50%;
+    background-color: white;
+}
+#introducao p{
+    width: 50%;
+}
+
+#sobre{
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh;
+}
+#sobre h1{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%, 0);
+}
+#sobre p{
+    text-align: center;
+}
+
+#estudo{
+    flex-direction: column;
 }

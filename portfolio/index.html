@@ -16,41 +16,55 @@
             <button>Sobre mim</button>
             <button>O que estudo</button>
             <button>Minhas metas</button>
-            <input type="checkbox" name="troca-tema" id="troca-tema">
+            <div id="troca-tema">
+                <input type="checkbox" name="troca-tema" id="troca-tema">
+                <div id="ball"></div>
+            </div>
         </nav>
     </header>
     <!-- o menu superior será fixo  -->
 
     <main>
         <section id="introducao">
-            <img src="src/img/foto.png" alt="foto-minha" class="lado_a_lado">
-            <p class="lado_a_lado">Olá, me chamo Matheus Moreira e esse é meu portifólio, seja bem vindo</p>
+            <img src="src/img/foto.png" alt="foto-minha">
+            <p>Olá, me chamo Matheus Moreira e esse é meu portifólio, seja bem vindo</p>
         </section>
 
         <section id="sobre">
             <h1>Sobre mim</h1>
-            <p>Sou estudante e programador em busca de uma oportunidade nesse ramo que tanto gosto</p>
-            <p>atualmente estou cursando Análise e desenvolvimento de sistemas e busco sempre aprimorar meus conhecimentos em tecnologias como HTML CSS JavaScript
-            <p>tenho como meta de me tornar um desenvolvedor mobile e criar apps que sejam uteis no dia a dia das pessoas</p>
+
+            <div class="conteudo">
+                <p>Sou estudante e programador em busca de uma oportunidade nesse ramo que tanto gosto</p>
+                <p>atualmente estou cursando Análise e desenvolvimento de sistemas e busco sempre aprimorar meus conhecimentos em tecnologias como HTML CSS JavaScript
+                <p>tenho como meta de me tornar um desenvolvedor mobile e criar apps que sejam uteis no dia a dia das pessoas</p>
+            </div>
         </section>
 
         <section id="estudo">
             <h1>O que estudo</h1>
-            <ul>
-                <li><mark>HTML</mark></li>
-                <li><mark>CSS</mark></li>
-                <li><mark>JS</mark></li>
-            </ul>
+
+            <div class="conteudo">
+                <div id="description">
+                    <p>Passe o mouse em cima de um icone para ver a descrição</p>
+                </div>
+                <div id="tecnologias">
+                    <div class="tecnologia">HTML</div>
+                    <div class="tecnologia">CSS</div>
+                    <div class="tecnologia">JS</div>
+                </div>
+            </div>
         </section>
         
         <section id="projetos">
             <h1>Projetos</h2>
-            <ul>
-                <li>Pokedex</li>
-                <li>Calculadora</li>
-                <li>Tela de Login simples</li>
-                <li>Organizador de arquivos com Python</li>
-            </ul>
+            <div class="conteudo">
+                <ul>
+                    <li>Pokedex</li>
+                    <li>Calculadora</li>
+                    <li>Tela de Login simples</li>
+                    <li>Organizador de arquivos com Python</li>
+                </ul>
+            </div>
         </section>
     </main>
 

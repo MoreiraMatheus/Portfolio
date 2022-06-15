@@ -1,19 +1,55 @@
 header{
-    /* background-color: var(--cor02); */
-    background-color: red;
-    backdrop-filter: blur(10px);
+    background-color: rgba(160, 160, 160, 0.7);
+    backdrop-filter: blur(2px);
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 5vh;
+    border-bottom: 2px solid black;
 }
 
 nav{
+    margin: 5px 20px;
+    padding: 2px;
     display: flex;
     justify-content: flex-end;
-    margin: 5px 20px;
-    background-color: yellow;
     align-items: center;
     column-gap: 15px;
+}
+
+nav > button{
+    padding: 3px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: black;
+    color: #ccc;
+    cursor: pointer;
+}
+
+nav > button:hover{
+    border: 1px solid white;
+    color: white;
+}
+
+#troca-tema{
+    position: relative;
+    background-color: black;
+    width: 44px;
+    height: 24px;
+    border-radius: 30px;
+}
+#troca-tema > input{
+    cursor: pointer;
+    opacity: 0;
+    width: 40px;
+    height: 20px;
+}
+
+#ball{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: white;
 }
