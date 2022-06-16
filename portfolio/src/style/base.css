@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 :root{
     --cor01:#9A3CFA;
     --cor02:#5A35DE;
@@ -8,6 +10,7 @@
     --cor05:#3CAAFA;
 
     --fonte: 'Open Sans', sans-serif;
+    --fonte_player: 'Press Start 2P', cursive;
 }
 
 *{
