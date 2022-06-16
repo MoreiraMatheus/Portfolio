@@ -1,0 +1,19 @@
+footer section{
+    height: 30vh;
+}
+footer h1{
+    height: 15%;
+}
+footer .conteudo{
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+footer a{
+    background-color: white;
+    padding: 3px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid black;
+}

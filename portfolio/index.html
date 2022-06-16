@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portifólio</title>
-
-    <link rel="stylesheet" href="src/style/style.css">
+    
+    <link rel="stylesheet" href="src/style/base.css">
+    <link rel="stylesheet" href="src/style/main.css">
     <link rel="stylesheet" href="src/style/nav.css">
     <link rel="stylesheet" href="src/style/footer.css">
 </head>
 <body>
     <header>
         <nav>
-            <button>Sobre mim</button>
-            <button>O que estudo</button>
-            <button>Projetos</button>
+            <button class="bt">Sobre mim</button>
+            <button class="bt">O que estudo</button>
+            <button class="bt">Projetos</button>
             <div id="troca-tema">
                 <input type="checkbox" name="troca-tema" id="troca-tema">
                 <div id="ball"></div>
@@ -59,17 +60,38 @@
             <h1>Projetos</h1>
             <div class="conteudo">
                 <div class="projeto">Pokedex</div>
+
                 <div class="projeto">Calculadora</div>
+
                 <div class="projeto">Tela de Login simples</div>
+
                 <div class="projeto">Organizador de arquivos com Python</div>
             </div>
         </section>
     </main>
 
     <footer>
-        <a href="">GitHub</a>
-        <a href="">Linkedin</a>
-        <p>Email para contato: matheus.m.santana87@gmail.com</p>
+        <section>
+            <h1>Entre em contato</h1>
+            <div class="conteudo">
+                <a href="https://github.com/MoreiraMatheus" target="_blank">
+                    <img src="src/img/icons/github.png" alt="">
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/matheus-moreira-7b5605204/" target="_blank">
+                    <img src="src/img/icons/logotipo-do-linkedin.png" alt="">
+                    Linkedin
+                </a>
+                <a href="https://www.instagram.com/matheusmoreiradesantana/" target="_blank">
+                    <img src="src/img/icons/instagram.png" alt="">
+                    Instagram
+                </a>
+                <a href="mailto:matheus.m.santana87@gmail.com">
+                    <img src="src/img/icons/logotipo-do-gmail.png" alt="">
+                    email
+                </a>
+            </div>
+        </section>
     </footer>
 </body>
 </html>

@@ -1,0 +1,101 @@
+body{
+    font-family: var(--fonte);
+    font-weight: 400;
+    background-color: var(--cor02);
+}
+
+main{
+    margin-top: 7vh;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    height: 68vh;
+    padding: 2vh;
+}
+
+h1{
+    text-align: center;
+    border: 1px solid black;
+    height: 10%;
+}
+
+p{
+    text-align: center;
+}
+
+.conteudo{
+    border: 1px solid black;
+    margin: auto;
+    width: 95%;
+    height: 80%;
+    display: flex
+}
+
+#sobre, #projetos{
+    background-color: var(--cor04);
+}
+
+#introducao{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#introducao img{
+    width: 25vw;
+    height: 25vw;
+    border: 3px solid black;
+    padding: 1px;
+    border-radius: 50%;
+    background-color: white;
+}
+#introducao p{
+    width: 50vw;
+}
+
+#sobre > .conteudo{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sobre > .conteudo > p{
+    width: 50%;
+}
+
+#estudo > .conteudo > #description{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#estudo > .conteudo > #description > p{
+    width: 70%;
+}
+#estudo > .conteudo > #tecnologias{
+    width: 70vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tecnologia{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+#projetos{
+    height: 136vh;
+}
+#projetos > .conteudo{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.projeto{
+    border: 1px solid black;
+    background-color: yellow;
+    height: 22%;
+    width: 95%
+}
