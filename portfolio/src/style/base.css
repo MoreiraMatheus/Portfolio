@@ -3,11 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root{
-    --cor01:#9A3CFA;
-    --cor02:#5A35DE;
-    --cor03:#4751F5;
-    --cor04:#356ADE;
-    --cor05:#3CAAFA;
+    --claro-destaque:#3CAAFA;
+    --claro-destaque2: #19415e;
+    --claro-contraste: #ccc;
+    --claro-fundo:white;
+
+    --escuro-destaque:#3CAAFA;
+    --escuro-destaque2: #19415e;
+    --escuro-contraste: #ccc;
+    --escuro-fundo:white;
 
     --fonte: 'Open Sans', sans-serif;
     --fonte_player: 'Press Start 2P', cursive;

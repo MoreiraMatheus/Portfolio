@@ -1,7 +1,7 @@
 body{
     font-family: var(--fonte);
     font-weight: 400;
-    background-color: var(--cor02);
+    background-color: var(--claro-fundo);
 }
 
 main{
@@ -36,8 +36,7 @@ p{
 }
 
 #sobre, #projetos{
-    background-color: var(--cor04);
-    /* background-image: linear-gradient(to bottom, var(--cor02), var(--cor04), var(--cor04), var(--cor04),  var(--cor02)); */
+    background-color: var(--claro-contraste);
 }
 
 #introducao{
@@ -51,6 +50,7 @@ p{
     border: 3px solid black;
     border-radius: 50%;
     background-color: white;
+    box-shadow: 1px 1px 20px var(--claro-contraste);
 }
 #introducao p{
     font-size: 1.7em;
@@ -116,9 +116,14 @@ p{
     align-items: center;
 }
 .projeto{
-    background-color: var(--cor02);
+    /* background-image: linear-gradient(to right, var(--claro-destaque), var(--claro-destaque2)); */
+    background-color: var(--claro-destaque);
     height: 22%;
     width: 95%
+}
+.projeto:hover{
+    /* background-color: var(--claro-destaque); */
+    box-shadow: 1px 1px 8px var(--claro-destaque2);
 }
 .img-projeto{
     width: 140px;

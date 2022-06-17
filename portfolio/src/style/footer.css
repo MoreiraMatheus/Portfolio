@@ -1,3 +1,7 @@
+footer{
+    /* background-color: var(--claro-destaque); */
+    background-image: linear-gradient(to bottom, var(--claro-destaque), var(--claro-destaque2));
+}
 footer section{
     height: 30vh;
 }
@@ -10,7 +14,7 @@ footer .conteudo{
     height: 100px;
 }
 footer a{
-    background-color: white;
+    background-color: var(--claro-contraste);
     width: 140px;
     height: 30px;
     text-align: center;
@@ -18,8 +22,9 @@ footer a{
     color: black;
     text-decoration: none;
     font-weight: 600;
-    border: 1px solid rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 3px;
 }
 footer a:hover{
-    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 5px var(--claro-destaque2);
 }
