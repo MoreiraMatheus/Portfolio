@@ -1,18 +1,30 @@
-# Quem eu sou
-olá, me chamo Matheus e esse é meu portifólio, será aqui que eu irei compartilhar meus estudos e experiências na área da programação
+<div align='center'>
+    💻<h1>Meu portfólio </h1>
+</div>
 
-# O que estudo
-Atualmente sou estudante de Análise e desenvolvimento de sistemas e busco sempre aprimorar meus conhecimentos
+![Resultado final do projeto](portfolio/src/img/outros/preview.png)
 
-## Confira abaixo alguns dos meus projetos:
+<div align='center'>
+    <a href="https://moreiramatheus.github.io/Portfolio/portfolio">Clique aqui para visitar meu portifolio na web</a>
+</div>
 
-**Aviso! projeto em desenvolvimento**
 
-Clique [aqui](https://moreiramatheus.github.io/Portfolio/portfolio) para visitar meu portifolio na web
+## Sobre mim 😄
+Sou estudante e programador em busca de uma oportunidade nesse ramo que tanto gosto.
 
-* [Tela de login](https://moreiramatheus.github.io/Portfolio/projetos/tela-de-login/)
+Atualmente estou cursando Análise e desenvolvimento de sistemas e busco sempre aprimorar meus conhecimentos em tecnologias como HTML, CSS e JavaScript.
+
+Tenho como meta de me tornar um desenvolvedor mobile e criar apps que sejam uteis no dia a dia das pessoas.
+
+## O que estudo 📕
+* HTML
+* CSS
+* JavaScript
+
+## Projetos 🔧
 * [Calculadora usando JS](https://moreiramatheus.github.io/calculadora-js/)
+* [Tela de login](https://moreiramatheus.github.io/tela-de-login/)
 * [Pokedex](https://moreiramatheus.github.io/Pokedex/)
+* [Site que troca de tema](https://moreiramatheus.github.io/troca-de-tema/)
 
-# Minhas metas:
- 
+**Aviso! projeto em desenvolvimento** ⚠️
