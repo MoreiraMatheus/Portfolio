@@ -50,7 +50,7 @@ p{
     border: 3px solid black;
     border-radius: 50%;
     background-color: white;
-    box-shadow: 1px 1px 20px var(--claro-contraste);
+    box-shadow: 0px 0px 20px var(--claro-contraste);
 }
 #introducao p{
     font-size: 1.7em;
@@ -88,11 +88,24 @@ p{
 .tecnologia{
     height: 150px;
     width: 150px;
-    padding: 2px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tecnologia:hover{
+    background-color: var(--claro-contraste);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
 }
 .tecnologia img{
     height: 150px;
     width: 150px;
+}
+.tecnologia img:hover{
+    animation-name: aumentar;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
 }
 
 #projetos{
@@ -116,13 +129,11 @@ p{
     align-items: center;
 }
 .projeto{
-    /* background-image: linear-gradient(to right, var(--claro-destaque), var(--claro-destaque2)); */
     background-color: var(--claro-destaque);
     height: 22%;
     width: 95%
 }
 .projeto:hover{
-    /* background-color: var(--claro-destaque); */
     box-shadow: 1px 1px 8px var(--claro-destaque2);
 }
 .img-projeto{
@@ -141,4 +152,7 @@ p{
     font-weight: 600;
     text-decoration: none;
     color: black;
+}
+.clique-p-ver:hover{
+    text-decoration: underline;
 }

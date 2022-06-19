@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/style/main.css">
     <link rel="stylesheet" href="src/style/nav.css">
     <link rel="stylesheet" href="src/style/footer.css">
+    <link rel="stylesheet" href="src/style/animate.css">
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
             <button class="bt" onclick="rolar('#projetos')">Projetos</button>
             <button class="bt" onclick="rolar('footer')">Entre em contato</button>
             <div id="troca-tema">
-                <input type="checkbox" name="troca-tema" id="troca-tema">
+                <input type="checkbox" name="tema-checkbox" id="tema-checkbox"  onclick="tema()">
                 <div id="ball">
                     <img src="src/img/icons/sun.png" alt="">
                 </div>
@@ -94,7 +95,7 @@
                     <img src="src/img/icons/project-management.png" alt="" class="img-projeto">
                     <div class="descreve-projeto">
                         <h2>Pokedex</h2>
-                        <p>Projeto que apresenta 6 pokemons (Gengar, Gyarados, Charizard, Dragonite, Bulbassaur e Pikachu).</p>
+                        <p>Projeto que apresenta 6 pokemons (Pikachu, Bulbassaur, Charmander, Gengar, Dragonite e Gyarados).</p>
                         <a href="https://moreiramatheus.github.io/Pokedex/" target="_blank" class="clique-p-ver">clique aqui para ver</a>
                     </div>
                 </div>
@@ -137,6 +138,6 @@
     </footer>
 
     <script src="src/js/nav.js"></script>
-    <script src="src/js/body.js"></script>
+    <script src="src/js/estudo.js"></script>
 </body>
 </html>
