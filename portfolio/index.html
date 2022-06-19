@@ -26,7 +26,6 @@
             </div>
         </nav>
     </header>
-    <!-- o menu superior será fixo  -->
 
     <main>
         <section id="introducao">
@@ -51,21 +50,21 @@
 
             <div class="conteudo">
                 <div id="description">
-                    <p>Passe o mouse em cima de um icone para ver a descrição</p>
+                    <p>Passe o mouse em cima de um icone para ver a descrição.</p>
                 </div>
                 <div id="tecnologias">
-                    <div class="tecnologia">
+                    <div class="tecnologia" onpointerenter="passou_mouse('HTML')" onpointerleave="saiu_mouse()">
                         <img src="src/img/tecnologias/html-5.png" alt="HTML-logo">
                     </div>
-                    <div class="tecnologia">
+                    <div class="tecnologia" onpointerenter="passou_mouse('CSS')" onpointerleave="saiu_mouse()">
                         <img src="src/img/tecnologias/css-3.png" alt="CSS-logo">
                     </div>
-                    <div class="tecnologia">
+                    <div class="tecnologia" onpointerenter="passou_mouse('JS')" onpointerleave="saiu_mouse()">
                         <img src="src/img/tecnologias/js.png" alt="JS-logo">
                     </div>
-                    <di class="tecnologia">
+                    <div class="tecnologia" onpointerenter="passou_mouse('Python')" onpointerleave="saiu_mouse()">
                         <img src="src/img/tecnologias/python.png" alt="Python-logo">
-                    </di>
+                    </div>
                 </div>
             </div>
         </section>
@@ -78,7 +77,7 @@
                     <div class="descreve-projeto">
                         <h2>Calculadora</h2>
                         <p>calculadora funcional feita com HTML, CSS e JS</p>
-                        <p class="clique-p-ver">clique para ver</p>
+                        <a href="https://moreiramatheus.github.io/calculadora-js/" class="clique-p-ver" target="_blank">clique aqui para ver</a>
                     </div>
                 </div>
 
@@ -87,7 +86,7 @@
                     <div class="descreve-projeto">
                         <h2>Tela de login</h2>
                         <p>Tela de login, tela de cadastro e de recuperação de senha.</p>
-                        <p class="clique-p-ver">clique para ver</p>
+                        <a href="https://moreiramatheus.github.io/tela-de-login/" target="_blank" class="clique-p-ver">clique aqui para ver</a>
                     </div>
                 </div>
 
@@ -96,7 +95,7 @@
                     <div class="descreve-projeto">
                         <h2>Pokedex</h2>
                         <p>Projeto que apresenta 6 pokemons (Gengar, Gyarados, Charizard, Dragonite, Bulbassaur e Pikachu).</p>
-                        <p class="clique-p-ver">clique para ver</p>
+                        <a href="https://moreiramatheus.github.io/Pokedex/" target="_blank" class="clique-p-ver">clique aqui para ver</a>
                     </div>
                 </div>
 
@@ -105,7 +104,7 @@
                     <div class="descreve-projeto">
                         <h2>Troca de tema</h2>
                         <p>Site que muda do tem aclaro para o tema escuro.</p>
-                        <p class="clique-p-ver">clique para ver</p>
+                        <a href="https://moreiramatheus.github.io/troca-de-tema/" target="_blank" class="clique-p-ver">clique aqui para ver</a>
                     </div>
                 </div>
             </div>
@@ -138,5 +137,6 @@
     </footer>
 
     <script src="src/js/nav.js"></script>
+    <script src="src/js/body.js"></script>
 </body>
 </html>

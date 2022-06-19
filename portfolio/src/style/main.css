@@ -139,4 +139,6 @@ p{
 .clique-p-ver{
     font-size: 0.7em;
     font-weight: 600;
+    text-decoration: none;
+    color: black;
 }
