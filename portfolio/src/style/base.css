@@ -11,7 +11,7 @@
     --escuro-destaque:#3CAAFA;
     --escuro-destaque2: #19415e;
     --escuro-contraste: #ccc;
-    --escuro-fundo:white;
+    --escuro-fundo:rgb(31, 31, 31);
 
     --fonte: 'Open Sans', sans-serif;
     --fonte_player: 'Press Start 2P', cursive;

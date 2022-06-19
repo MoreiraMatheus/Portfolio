@@ -6,10 +6,35 @@ function rolar(caixa){
 
 function tema(){
     const checkbox = document.getElementById("tema-checkbox");
+    const body = document.querySelector('body')
     if(checkbox.checked){
         console.log('tema escuro')
+        bolinhaAnimada('escuro')
+        body.style.backgroundColor = 'var(--escuro-fundo)'
     }
     else{
         console.log('tema claro')
+        bolinhaAnimada('claro')
+        body.style.backgroundColor = 'var(--claro-fundo)'
     }
 };
+
+function bolinhaAnimada(tema){
+    const ball = document.getElementById('ball')
+    const imagem_tema = document.querySelector('#ball')
+    if(tema == 'escuro'){
+        ball.style.animationName = 'direita'
+        ball.style.animationDuration = '0.5s'
+        ball.style.left = '24px'
+        imagem_tema.innerHTML = '<img src="src/img/icons/moon.png" alt="">'
+    }
+    else if(tema == 'claro'){
+        ball.style.animationName = 'esquerda'
+        ball.style.animationDuration = '0.5s'
+        ball.style.left = '4px'
+        imagem_tema.innerHTML = '<img src="src/img/icons/sun.png" alt="">'
+    }
+    else{
+        console.log('erro ao animar bolinha')
+    }
+}

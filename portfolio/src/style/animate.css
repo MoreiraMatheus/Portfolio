@@ -8,3 +8,21 @@
         width: 170px;       
     }
 }
+
+@keyframes esquerda{
+    0%{
+        left: 24px;
+    }
+    100%{
+        left: 4px;
+    }
+}
+
+@keyframes direita{
+    0%{
+        left: 4px;
+    }
+    100%{
+        left: 24px;
+    }
+}
