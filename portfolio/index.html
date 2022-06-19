@@ -14,10 +14,10 @@
 <body>
     <header>
         <nav>
-            <button class="bt">Sobre mim</button>
-            <button class="bt">O que estudo</button>
-            <button class="bt">Projetos</button>
-            <button class="bt">Entre em contato</button>
+            <button class="bt" onclick="rolar('#sobre')">Sobre mim</button>
+            <button class="bt" onclick="rolar('#estudo')">O que estudo</button>
+            <button class="bt" onclick="rolar('#projetos')">Projetos</button>
+            <button class="bt" onclick="rolar('footer')">Entre em contato</button>
             <div id="troca-tema">
                 <input type="checkbox" name="troca-tema" id="troca-tema">
                 <div id="ball">
@@ -136,5 +136,7 @@
             </div>
         </section>
     </footer>
+
+    <script src="src/js/nav.js"></script>
 </body>
 </html>

@@ -1,6 +1,5 @@
 footer{
-    /* background-color: var(--claro-destaque); */
-    background-image: linear-gradient(to bottom, var(--claro-destaque), var(--claro-destaque2));
+    background-color: var(--claro-destaque);
 }
 footer section{
     height: 30vh;
