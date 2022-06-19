@@ -10,12 +10,14 @@ function tema(){
     if(checkbox.checked){
         console.log('tema escuro')
         bolinhaAnimada('escuro')
+        trocaTema()
         body.style.backgroundColor = 'var(--escuro-fundo)'
     }
     else{
         console.log('tema claro')
         bolinhaAnimada('claro')
         body.style.backgroundColor = 'var(--claro-fundo)'
+        trocaTema()
     }
 };
 
@@ -37,4 +39,8 @@ function bolinhaAnimada(tema){
     else{
         console.log('erro ao animar bolinha')
     }
+}
+
+function trocaTema(){
+    console.log('função em desenvolvimento')
 }

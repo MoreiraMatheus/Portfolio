@@ -1,0 +1,121 @@
+@media(max-width: 790px){
+    #sobre > .conteudo > p{
+        font-size: 1.3em;
+    }
+
+    #introducao{
+        flex-direction: column;
+    }
+    #introducao p{
+        width: 70%;
+    }
+}
+
+@media(max-width: 660px){
+    nav button{
+        display: none;
+    }
+    
+    #sobre > .conteudo > p{
+        width: 60%;
+    }
+
+    .tecnologia{
+        height: 130px;
+        width: 130px;
+    }
+    .tecnologia img{
+        height: 130px;
+        width: 130px;
+    }
+
+    .descreve-projeto{
+        width: 65%;
+        font-size: 1.1em;
+    }
+
+    footer section{
+        height: 35vh;
+    }
+    footer .conteudo{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    footer .conteudo a{
+        width: 60%;
+    }
+}
+
+@media(max-width: 550px){
+    #sobre > .conteudo > p{
+        width: 70%;
+        font-size: 1.2em;
+    }
+
+    #estudo .conteudo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #estudo .conteudo #description{
+        width: 90%;
+    }
+    #estudo .conteudo #description p{
+        font-size: 1.1em;
+    }
+
+    .projeto{
+        width: 100%;
+    }
+    .img-projeto{
+        width: 130px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 450px){
+    #introducao img{
+        width: 50vw;
+        height: 50vw;
+    }
+    #introducao p{
+        width: 90%;
+        font-size: 1.5em;
+    }
+
+    #sobre > .conteudo > p{
+        width: 80%;
+        font-size: 1.2em;
+    }
+
+    .tecnologia{
+        width: 100px;
+        height: 100px;
+    }
+    .tecnologia img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-projeto{
+        width: 100px;
+        height: 100px;
+    }
+    .descreve-projeto{
+        width: 70%;
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 400px){
+    #sobre > .conteudo > p{
+        width: 80%;
+        font-size: 1em;
+        margin: 5px 0px;
+    }
+
+    .img-projeto{
+        width: 90px;
+        height: 90px;
+    }
+}
