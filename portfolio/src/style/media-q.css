@@ -1,3 +1,22 @@
+@media(min-width: 1500px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main{
+        width: 1500px;
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    footer section{
+        width: 60%;
+    }
+}
+
 @media(max-width: 790px){
     #sobre > .conteudo > p{
         font-size: 1.3em;
@@ -15,7 +34,7 @@
     nav button{
         display: none;
     }
-    
+
     #sobre > .conteudo > p{
         width: 60%;
     }
@@ -117,5 +136,66 @@
     .img-projeto{
         width: 90px;
         height: 90px;
+    }
+}
+
+@media(max-width: 350px){
+    #introducao p{
+        font-size: 1.3em;
+    }
+
+    h1{
+        font-size: 1.7em;
+        border-bottom: none;
+    }
+
+    #estudo > .conteudo > #description > p{
+        width: 90%;
+    }
+    .tecnologia{
+        width: 80px;
+        height: 80px;
+    }
+    .tecnologia img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .img-projeto{
+        display: none;
+    }
+    .descreve-projeto{
+        width: 90%;
+    }
+
+    #projetos > p{
+        font-size: 1em;
+    }
+}
+
+@media(max-width:290px){
+    #introducao p{
+        font-size: 1.1em;
+    }
+
+    #sobre .conteudo{
+        width: 100%;
+    }
+    #sobre .conteudo p{
+        width: 100%;
+        font-size: 0.9em;
+    }
+    
+    .tecnologia{
+        width: 60px;
+        height: 60px;
+    }
+    .tecnologia img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .descreve-projeto{
+        font-size: 0.9em;
     }
 }
