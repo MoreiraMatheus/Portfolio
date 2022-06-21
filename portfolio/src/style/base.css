@@ -8,9 +8,9 @@
     --claro-contraste: #ccc;
     --claro-fundo:white;
 
-    --escuro-destaque:#3CAAFA;
-    --escuro-destaque2: #19415e;
-    --escuro-contraste: #ccc;
+    --escuro-destaque: #19415e;
+    --escuro-destaque2:#3CAAFA;
+    --escuro-contraste: #505050;
     --escuro-fundo:rgb(31, 31, 31);
 
     --fonte: 'Open Sans', sans-serif;

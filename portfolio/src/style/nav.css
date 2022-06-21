@@ -17,7 +17,7 @@ nav{
     column-gap: 15px;
 }
 
-nav > button{
+.bt{
     padding: 3px;
     border: none;
     border-radius: 3px;
@@ -26,7 +26,7 @@ nav > button{
     cursor: pointer;
 }
 
-nav > button:hover{
+.bt:hover{
     box-shadow: 1px 1px 5px var(--claro-destaque2);
 }
 

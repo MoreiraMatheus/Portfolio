@@ -4,20 +4,18 @@ function rolar(caixa){
     window.scroll(0, distanciatop - 35)
 }
 
-function tema(){
+function checkbox(){
     const checkbox = document.getElementById("tema-checkbox");
-    const body = document.querySelector('body')
+    
     if(checkbox.checked){
         console.log('tema escuro')
         bolinhaAnimada('escuro')
-        trocaTema()
-        body.style.backgroundColor = 'var(--escuro-fundo)'
+        temaDark()
     }
     else{
         console.log('tema claro')
         bolinhaAnimada('claro')
-        body.style.backgroundColor = 'var(--claro-fundo)'
-        trocaTema()
+        temaLight()
     }
 };
 
@@ -41,6 +39,92 @@ function bolinhaAnimada(tema){
     }
 }
 
-function trocaTema(){
-    console.log('função em desenvolvimento')
+function temaDark(){
+    const body = document.querySelector('body')
+    const header = document.querySelector('header')
+
+    const header_bt = document.querySelectorAll('button')[0]
+    const header_bt2 = document.querySelectorAll('button')[1]
+    const header_bt3 = document.querySelectorAll('button')[2]
+    const header_bt4 = document.querySelectorAll('button')[3]
+
+    const troca_tema = document.getElementById('troca-tema')
+    const sobre = document.getElementById('sobre')
+    const projetos = document.getElementById('projetos')
+
+    const div_projeto = document.querySelectorAll('.projeto')[0]
+    const div_projeto2 = document.querySelectorAll('.projeto')[1]
+    const div_projeto3 = document.querySelectorAll('.projeto')[2]
+    const div_projeto4 = document.querySelectorAll('.projeto')[3]
+
+    const footer = document.querySelector('footer')
+
+    body.style.backgroundColor = 'var(--escuro-fundo)'
+    body.style.color = '#ccc'
+    header.style.backgroundColor = 'rgba(80, 80, 80, 0.7)'
+
+    header_bt.style.backgroundColor = 'var(--escuro-destaque)'
+    header_bt.style.color = '#ccc'
+    header_bt2.style.backgroundColor = 'var(--escuro-destaque)'
+    header_bt2.style.color = '#ccc'
+    header_bt3.style.backgroundColor = 'var(--escuro-destaque)'
+    header_bt3.style.color = '#ccc'
+    header_bt4.style.backgroundColor = 'var(--escuro-destaque)'
+    header_bt4.style.color = '#ccc'
+
+    troca_tema.style.backgroundColor = 'var(--escuro-destaque)'
+    sobre.style.backgroundColor = 'var(--escuro-contraste)'
+    projetos.style.backgroundColor = 'var(--escuro-contraste)'
+
+    div_projeto.style.backgroundColor = 'var(--escuro-destaque)'
+    div_projeto2.style.backgroundColor = 'var(--escuro-destaque)'
+    div_projeto3.style.backgroundColor = 'var(--escuro-destaque)'
+    div_projeto4.style.backgroundColor = 'var(--escuro-destaque)'
+
+    footer.style.backgroundColor = 'var(--escuro-destaque)'
+}
+
+function temaLight(){
+    const body = document.querySelector('body')
+    const header = document.querySelector('header')
+
+    const header_bt = document.querySelectorAll('button')[0]
+    const header_bt2 = document.querySelectorAll('button')[1]
+    const header_bt3 = document.querySelectorAll('button')[2]
+    const header_bt4 = document.querySelectorAll('button')[3]
+
+    const troca_tema = document.getElementById('troca-tema')
+    const sobre = document.getElementById('sobre')
+    const projetos = document.getElementById('projetos')
+
+    const div_projeto = document.querySelectorAll('.projeto')[0]
+    const div_projeto2 = document.querySelectorAll('.projeto')[1]
+    const div_projeto3 = document.querySelectorAll('.projeto')[2]
+    const div_projeto4 = document.querySelectorAll('.projeto')[3]
+
+    const footer = document.querySelector('footer')
+
+    body.style.backgroundColor = 'var(--claro-fundo)'
+    body.style.color = 'black'
+    header.style.backgroundColor = 'rgba(204, 204, 204, 0.7)'
+
+    header_bt.style.backgroundColor = ''
+    header_bt.style.color = ''
+    header_bt2.style.backgroundColor = ''
+    header_bt2.style.color = ''
+    header_bt3.style.backgroundColor = ''
+    header_bt3.style.color = ''
+    header_bt4.style.backgroundColor = ''
+    header_bt4.style.color = ''
+
+    troca_tema.style.backgroundColor = 'var(--claro-destaque)'
+    sobre.style.backgroundColor = ''
+    projetos.style.backgroundColor = ''
+
+    div_projeto.style.backgroundColor = ''
+    div_projeto2.style.backgroundColor = ''
+    div_projeto3.style.backgroundColor = ''
+    div_projeto4.style.backgroundColor = ''
+
+    footer.style.backgroundColor = ''
 }
