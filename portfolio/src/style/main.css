@@ -50,7 +50,7 @@ p{
     border: 3px solid black;
     border-radius: 50%;
     background-color: white;
-    box-shadow: 0px 0px 20px var(--claro-contraste);
+    box-shadow: 0px 0px 20px rgba(204, 204, 204, 0.6);
 }
 #introducao p{
     font-size: 1.7em;
@@ -95,8 +95,8 @@ p{
     align-items: center;
 }
 .tecnologia:hover{
-    background-color: var(--claro-contraste);
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+    background-color: rgba(97, 97, 97, 0.3);    
+    box-shadow: 0px 0px 40px rgba(110, 110, 110, 0.5);
 }
 .tecnologia img{
     height: 150px;

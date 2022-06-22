@@ -1,8 +1,7 @@
 // o que estudo
 const descreve = document.getElementById('description')
 
-function passou_mouse(tec='erro inesperado ocorreu.'){
-    const tecnologia = document.getElementById(tec)
+function descreve_tec(tec='erro inesperado ocorreu.'){
     if(tec == 'HTML'){
         descreve.innerHTML = `<p>Tecnologia para estruturar páginas web</p>`
     }
@@ -20,6 +19,6 @@ function passou_mouse(tec='erro inesperado ocorreu.'){
     }
 }
 
-function saiu_mouse(){
-    descreve.innerHTML = '<p>Passe o mouse em cima de um icone para ver a descrição.</p>'
+function limpa_descript(){
+    descreve.innerHTML = '<p>Escolha uma tecnologia para ver a descrição.</p>'
 }

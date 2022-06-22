@@ -7,11 +7,12 @@
     <title>Meu portifólio</title>
     
     <link rel="stylesheet" href="src/style/base.css">
+    <link rel="stylesheet" href="src/style/header.css">
     <link rel="stylesheet" href="src/style/main.css">
-    <link rel="stylesheet" href="src/style/nav.css">
     <link rel="stylesheet" href="src/style/footer.css">
     <link rel="stylesheet" href="src/style/animate.css">
-    <link rel="stylesheet" href="src/style/media-q.css">
+    <link rel="stylesheet" href="src/style/media-q-width.css">
+    <link rel="stylesheet" href="src/style/media-q-height.css">
 </head>
 <body>
     <header>
@@ -51,20 +52,20 @@
             <h1>O que estudo</h1>
 
             <div class="conteudo">
-                <div id="description">
-                    <p>Passe o mouse em cima de um icone para ver a descrição.</p>
+                <div id="description" onclick="limpa_descript()">
+                    <p>Escolha uma tecnologia para ver a descrição.</p>
                 </div>
                 <div id="tecnologias">
-                    <div class="tecnologia" onpointerenter="passou_mouse('HTML')" onpointerleave="saiu_mouse()">
+                    <div class="tecnologia" onclick="descreve_tec('HTML')">
                         <img src="src/img/tecnologias/html-5.png" alt="HTML-logo">
                     </div>
-                    <div class="tecnologia" onpointerenter="passou_mouse('CSS')" onpointerleave="saiu_mouse()">
+                    <div class="tecnologia" onclick="descreve_tec('CSS')">
                         <img src="src/img/tecnologias/css-3.png" alt="CSS-logo">
                     </div>
-                    <div class="tecnologia" onpointerenter="passou_mouse('JS')" onpointerleave="saiu_mouse()">
+                    <div class="tecnologia" onclick="descreve_tec('JS')">
                         <img src="src/img/tecnologias/js.png" alt="JS-logo">
                     </div>
-                    <div class="tecnologia" onpointerenter="passou_mouse('Python')" onpointerleave="saiu_mouse()">
+                    <div class="tecnologia" onclick="descreve_tec('Python')">
                         <img src="src/img/tecnologias/python.png" alt="Python-logo">
                     </div>
                 </div>
