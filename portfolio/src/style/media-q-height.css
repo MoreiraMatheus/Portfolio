@@ -1,0 +1,163 @@
+@media(max-height: 600px){
+    h1{
+        border: none;
+    }
+    
+    #sobre > .conteudo > p{
+        width: 70%;
+    }
+
+    .tecnologia{
+        width: 120px;
+        height: 120px;
+    }
+    .tecnologia img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .img-projeto{
+        width: 120px;
+        height: 120px;
+    }
+
+    footer a{
+        height: 20px;
+    }
+    footer a img{
+        height: 20px;
+    }
+}
+
+@media(max-height:500px){
+    #introducao p{
+        font-size: 1.5em;
+    }
+
+    h1{
+        font-size: 1.7em;
+    }
+
+    #sobre > .conteudo > p{
+        width: 80%;
+        font-size: 1.3em;
+    }
+
+    .tecnologia{
+        width: 100px;
+        height: 100px;
+    }
+    .tecnologia img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-projeto{
+        height: 100px;
+        width: 100px;
+    }
+    .descreve-projeto{
+        font-size: 1em;
+        width: 70%;
+    }
+
+    footer .conteudo{
+        row-gap: 5px;
+    }
+}
+
+@media(max-height: 450px){
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #introducao p{
+        font-size: 1.1em;
+    }
+
+    #sobre > .conteudo > p{
+        width: 85%;
+        font-size: 1.1em;
+    }
+
+    #estudo > .conteudo > #description p{
+        font-size: 1.1em;
+    }
+
+    .tecnologia, .tecnologia img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .img-projeto{
+        height: 80px;
+        width: 80px;
+    }
+    .descreve-projeto{
+        font-size: 0.9em;
+        width: 75%;
+    }
+
+    footer a, footer a img{
+        height: 15px;
+    }
+}
+
+@media(max-height:375px){
+    footer h1{
+        margin-bottom: 5px;
+    }
+    footer .conteudo{
+
+        height: 60px;
+    }
+    footer a, footer a img{
+        height: 10px;
+    }
+    footer a{
+        font-size: 0.7em;
+    }
+}
+
+@media(max-height: 350px){
+    #introducao img{
+        width: 18vw;
+        height: 18vw;
+    }
+    #introducao p{
+        width: 80%;
+        font-size: 1em;
+    }
+
+    .img-projeto{
+        height: 60px;
+        width: 60px;
+    }
+    .descreve-projeto{
+        font-size: 0.7em;
+        width: 90%;
+    }
+    #projetos > p{
+        font-size: 1em;
+    }
+
+    footer section{
+        height: 40vh;
+    }
+}
+
+@media(max-height: 280px){
+    #sobre > .conteudo > p{
+        font-size: 0.9em;
+        width: 100%;
+    }
+
+    .img-projeto{
+        width: 50px;
+        height: 50px;
+    }
+
+    footer section{
+        height: 43vh;
+    }
+}
