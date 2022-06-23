@@ -3,16 +3,16 @@ const descreve = document.getElementById('description')
 
 function descreve_tec(tec='erro inesperado ocorreu.'){
     if(tec == 'HTML'){
-        descreve.innerHTML = `<p>Tecnologia para estruturar páginas web</p>`
+        descreve.innerHTML = `<p>linguagem de marcação utilizada na construção de páginas web</p>`
     }
     else if(tec == 'CSS'){
-        descreve.innerHTML = `<p>Linguagem para estilização de páginas HTML</p>`
+        descreve.innerHTML = `<p>Linguagem de estilização de páginas HTML</p>`
     }
     else if(tec == 'JS'){
-        descreve.innerHTML = '<p>Linguagem de programação muito utilizada no desenvolvimento web</p>'
+        descreve.innerHTML = '<p>Linguagem de programação de alto nivel, voltada para o front-end</p>'
     }
     else if(tec == 'Python'){
-        descreve.innerHTML = '<p>Linguagem de programação muito utilizada no back-end principalmente em ciência de dados</p>'
+        descreve.innerHTML = '<p>Linguagem de programação de alto nivel, voltada para o back-end</p>'
     }
     else{
         descreve.innerHTML = `<p>${tec}</p>`

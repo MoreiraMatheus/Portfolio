@@ -5,7 +5,7 @@
 ![Resultado final do projeto](portfolio/src/img/outros/preview.png)
 
 <div align='center'>
-    <a href="https://moreiramatheus.github.io/Portfolio/portfolio">Clique aqui para visitar meu portifolio na web</a>
+    <a href="https://moreiramatheus.github.io/Portfolio/portfolio">Clique aqui para visitar meu portfolio na web</a>
 </div>
 
 
@@ -27,4 +27,6 @@ Tenho como meta de me tornar um desenvolvedor mobile e criar apps que sejam utei
 * [Pokedex](https://moreiramatheus.github.io/Pokedex/)
 * [Site que troca de tema](https://moreiramatheus.github.io/troca-de-tema/)
 
-**Aviso! projeto em desenvolvimento** ⚠️
+>⚠️ **Aviso!** ⚠️
+>
+> projeto em constante desenvolvimento, futuramente irei atualizar esse projeto confrome meus conhecimentos forem ficando mais aprimorados, caso queira, fique a vontade para acompanhar meu desenvolvimento.

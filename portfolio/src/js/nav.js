@@ -26,13 +26,13 @@ function bolinhaAnimada(tema){
         ball.style.animationName = 'direita'
         ball.style.animationDuration = '0.5s'
         ball.style.left = '24px'
-        imagem_tema.innerHTML = '<img src="src/img/icons/moon.png" alt="">'
+        imagem_tema.innerHTML = '<img src="../img/icons/moon.png" alt="">'
     }
     else if(tema == 'claro'){
         ball.style.animationName = 'esquerda'
         ball.style.animationDuration = '0.5s'
         ball.style.left = '4px'
-        imagem_tema.innerHTML = '<img src="src/img/icons/sun.png" alt="">'
+        imagem_tema.innerHTML = '<img src="../img/icons/sun.png" alt="">'
     }
     else{
         console.log('erro ao animar bolinha')
