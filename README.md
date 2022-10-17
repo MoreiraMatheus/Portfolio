@@ -2,8 +2,6 @@
     💻<h1>Meu portfólio </h1>
 </div>
 
-![Resultado final do projeto](portfolio/src/img/outros/preview.png)
-
 <div align='center'>
     <a href="https://moreiramatheus.github.io/Portfolio/portfolio/src/pages">Clique aqui para visitar meu portfolio na web</a>
 </div>
