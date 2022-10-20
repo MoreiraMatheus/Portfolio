@@ -12,6 +12,13 @@ const GlobalStyle = createGlobalStyle`
   body{
     background-color: ${({theme}) => theme.colors.background};
   }
+
+  header{
+    background-color: ${({theme}) => theme.colors.backgroundSection};
+    width: 100vw;
+    height: 80px;
+
+  }
 `
 
 export default GlobalStyle

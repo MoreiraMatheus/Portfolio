@@ -3,13 +3,18 @@ import { ThemeProvider } from 'styled-components'
 
 import { darkTheme } from "./Styles/Themes/Dark";
 
+import { Title } from './Components/Title/Index'
+import {Intro} from './Components/Intro/Index'
+
 function App() {
   return (
     <>
       <ThemeProvider theme={darkTheme}>
         <GlobalStyle/>
-        <h1>Olá mundo</h1>
-        <p>Este será meu portfólio</p>
+        <header></header>
+
+        <Intro/>
+
       </ThemeProvider>
     </>
   );
