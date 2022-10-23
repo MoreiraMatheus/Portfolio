@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components'
 
 import { darkTheme } from "./Styles/Themes/Dark";
 
-import { Title } from './Components/Title/Index'
+import { Title } from './Components/Title/Styles'
 import {Intro} from './Components/Intro/Index'
 
 function App() {
