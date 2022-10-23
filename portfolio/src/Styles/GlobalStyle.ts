@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body{
+    width: 100vw;
     background-color: ${({theme}) => theme.colors.background};
   }
 
@@ -17,7 +18,6 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${({theme}) => theme.colors.backgroundSection};
     width: 100vw;
     height: 80px;
-
   }
 `
 

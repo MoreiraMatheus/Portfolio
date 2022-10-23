@@ -14,5 +14,7 @@ export const Wrapper = styled.div`
   h1{
     margin-left: 160px;
     text-align: center;
+    font-size: 28px;
+    color: ${({theme}) => theme.colors.title};
   }
 `

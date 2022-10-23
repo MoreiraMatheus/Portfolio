@@ -5,6 +5,7 @@ import { darkTheme } from "./Styles/Themes/Dark";
 
 import { Title } from './Components/Title/Styles'
 import {Intro} from './Components/Intro/Index'
+import {AboutMe} from './Components/AboutMe/index'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <header></header>
 
         <Intro/>
+
+        <AboutMe/>
 
       </ThemeProvider>
     </>
