@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     ::-webkit-scrollbar-thumb{
-      background-color: ${({theme})=>theme.colors.backgroundSection};
+      background-color: ${({theme})=>theme.colors.title};
       border-radius: 5px;
     }
   }
