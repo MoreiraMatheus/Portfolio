@@ -3,9 +3,9 @@ import { ThemeProvider } from 'styled-components'
 
 import { darkTheme } from "./Styles/Themes/Dark";
 
-import { Title } from './Components/Title/Styles'
-import {Intro} from './Components/Intro/Index'
-import {AboutMe} from './Components/AboutMe/index'
+import { Intro } from './Components/Intro/Index'
+import { AboutMe } from './Components/AboutMe/index'
+import { WhatIStudy } from './Components/WhatIStudy/index'
 
 function App() {
   return (
@@ -17,6 +17,8 @@ function App() {
         <Intro/>
 
         <AboutMe/>
+
+        <WhatIStudy/>
 
       </ThemeProvider>
     </>

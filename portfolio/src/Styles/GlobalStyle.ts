@@ -10,13 +10,23 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body{
-    width: 100vw;
+    width: 100%;
     background-color: ${({theme}) => theme.colors.background};
+
+    ::-webkit-scrollbar{
+      background-color: ${({theme})=>theme.colors.background};
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+      background-color: ${({theme})=>theme.colors.backgroundSection};
+      border-radius: 5px;
+    }
   }
 
   header{
     background-color: ${({theme}) => theme.colors.backgroundSection};
-    width: 100vw;
+    width: 100%;
     height: 80px;
   }
 `
