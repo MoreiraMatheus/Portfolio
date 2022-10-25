@@ -9,16 +9,24 @@ export const Slider = styled.div`
   width: 80%;
   margin: 0 auto;
   display: flex;
-  column-gap: 100px;
-  justify-content: center;
+  column-gap: 24px;
   overflow-x: auto;
+  overflow-y: hidden;
+  
 `
 
 export const Project = styled.div`
   width: 40vw;
-  max-width: 500px;
+  max-width: 600px;
   height: 352px;
   flex-shrink: 0;
   border-radius: 16px;
   background-color: ${({theme}) => theme.colors.pannelBaseColor};
+
+  > img{
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
 `
