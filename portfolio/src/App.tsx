@@ -6,6 +6,7 @@ import { darkTheme } from "./Styles/Themes/Dark";
 import { Intro } from './Components/Intro/Index'
 import { AboutMe } from './Components/AboutMe/index'
 import { WhatIStudy } from './Components/WhatIStudy/index'
+import { PersonalProjects } from './Components/PersonalProjects/index'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <AboutMe/>
 
         <WhatIStudy/>
+
+        <PersonalProjects/>
 
       </ThemeProvider>
     </>
