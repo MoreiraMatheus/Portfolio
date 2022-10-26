@@ -1,7 +1,7 @@
 import { Wrapper } from './Styles'
 
-import { Title } from '../Title/Styles'
-import { Tecnology } from '../Tecnology/index'
+import { Title } from '../../Components/Title/Styles'
+import { Tecnology } from '../../Components/Tecnology/index'
 
 export function WhatIStudy(){
   return(

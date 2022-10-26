@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
 
     ::-webkit-scrollbar-thumb{
       background-color: ${({theme})=>theme.colors.title};
+      border: 1px solid ${({theme})=>theme.colors.background};
       border-radius: 5px;
     }
   }

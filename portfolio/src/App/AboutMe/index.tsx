@@ -1,4 +1,4 @@
-import { Title } from '../Title/Styles'
+import { Title } from '../../Components/Title/Styles'
 import { Wrapper } from './Styles'
 
 export function AboutMe(){

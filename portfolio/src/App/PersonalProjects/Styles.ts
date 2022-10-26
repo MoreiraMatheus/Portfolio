@@ -8,9 +8,22 @@ export const Wrapper = styled.div`
 export const Slider = styled.div`
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 8px;
   display: flex;
   column-gap: 24px;
-  overflow-x: hidden;  
+  overflow-x: auto; 
+
+  ::-webkit-scrollbar{
+      background-color: ${({theme})=>theme.colors.pannelBaseColor};
+      height: 10px;
+      border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: ${({theme})=>theme.colors.backgroundSection};
+    border: 1px solid ${({theme})=>theme.colors.pannelBaseColor};
+    border-radius: 5px;
+  }
 `
 
 export const Project = styled.div`
