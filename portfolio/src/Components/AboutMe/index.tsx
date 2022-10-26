@@ -4,7 +4,7 @@ import { Wrapper } from './Styles'
 export function AboutMe(){
   return(
     <Wrapper>
-      <Title>Sobre mim</Title>
+      <Title contrast >Sobre mim</Title>
           <div>
             <p>
               Sou estudante e programador em busca de uma oportunidade nesse ramo que tanto gosto.

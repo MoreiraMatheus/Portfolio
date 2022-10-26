@@ -10,23 +10,28 @@ export const Slider = styled.div`
   margin: 0 auto;
   display: flex;
   column-gap: 24px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  
+  overflow-x: hidden;  
 `
 
 export const Project = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 40vw;
   max-width: 600px;
-  height: 352px;
+  height: 400px;
+  padding: 8px;
   flex-shrink: 0;
-  border-radius: 16px;
+  border-radius: 4px;
   background-color: ${({theme}) => theme.colors.pannelBaseColor};
 
   > img{
-    margin: 5%;
     width: 90%;
-    height: 90%;
-    object-fit: contain;
+  }
+
+  > p{
+    color: black;
+    border-top: 2px solid ${({theme}) => theme.colors.title};
+    padding: 8px;
   }
 `

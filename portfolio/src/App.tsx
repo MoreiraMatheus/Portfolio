@@ -2,6 +2,7 @@ import GlobalStyle from "./Styles/GlobalStyle";
 import { ThemeProvider } from 'styled-components'
 
 import { darkTheme } from "./Styles/Themes/Dark";
+import { lightTheme } from "./Styles/Themes/Ligth";
 
 import { Intro } from './Components/Intro/Index'
 import { AboutMe } from './Components/AboutMe/index'
