@@ -8,6 +8,7 @@ import { Intro } from './Intro/Index'
 import { AboutMe } from './AboutMe/index'
 import { WhatIStudy } from './WhatIStudy/index'
 import { PersonalProjects } from './PersonalProjects/index'
+import { Contact } from './Contact/index'
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <WhatIStudy/>
 
         <PersonalProjects/>
+
+        <Contact/>
 
       </ThemeProvider>
     </>
