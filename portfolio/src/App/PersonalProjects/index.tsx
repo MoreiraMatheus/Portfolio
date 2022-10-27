@@ -7,7 +7,19 @@ import JogoDaVelha from '../../assets/projectsImages/JogoDaVelha.png'
 import LoginPage from '../../assets/projectsImages/LoginPage.png'
 import PeopleRegisterSistem from '../../assets/projectsImages/PeopleRegisterSistem.png'
 
-const projects:Array<string> = [GithubSearch, JogoDaVelha, LoginPage, PeopleRegisterSistem]
+interface project{
+  key:string;
+  image:string;
+  title:string;
+  description:string;
+}
+
+const projects:Array<project> = [
+  {key:'1', image: GithubSearch, title: 'Github search', description: 'descrição'},
+  {key:'2', image: JogoDaVelha, title: 'Jogo da velha', description: 'descrição'},
+  {key:'3', image: LoginPage, title: 'Página de login', description: 'descrição'},
+  {key:'4', image: PeopleRegisterSistem, title: 'People register sistem', description: 'descrição'}
+]
 
 export function PersonalProjects(){
   return(
@@ -15,10 +27,10 @@ export function PersonalProjects(){
       <Title contrast>Projetos</Title>
       <Slider>
         {projects.map(item =>(
-          <Project key={item}>
-            <img src={item} alt="foto-projeto"/>
-            <Title customPadding='4px'>Teste</Title>
-            <p>Descição Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sit soluta saepe nobis voluptatem dolor, ea ex, facere, voluptates quod vero veritatis ipsum consequuntur natus quibusdam nesciunt suscipit necessitatibus? Adipisci!</p>
+          <Project key={item.key}>
+            <img src={item.image} alt="foto-projeto"/>
+            <Title customPadding='4px'>{item.title}</Title>
+            <p>{item.description}</p>
           </Project>
         ))}
       </Slider>

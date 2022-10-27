@@ -6,28 +6,17 @@ import linkedin from '../../assets/socialMedia/linkedin-icon.svg'
 import gmail from '../../assets/socialMedia/gmail-icon.svg'
 
 import { Title } from '../../Components/Title/Styles'
-import { ContactButton } from '../../Components/ContactButton/Styles'
+import { ContactButton } from '../../Components/ContactButton/index'
 
 export function Contact(){
   return(
     <Wrapper>
       <Title>Entre em contato</Title>
       <div>
-        <ContactButton>
-          <img src={github} alt="" />
-        </ContactButton>
-
-        <ContactButton>
-          <img src={instagram} alt="" />
-        </ContactButton>
-
-        <ContactButton>
-          <img src={linkedin} alt="" />
-        </ContactButton>
-
-        <ContactButton>
-          <img src={gmail} alt="" />
-        </ContactButton>
+        <ContactButton image={github} link='https://github.com/MoreiraMatheus' socialMediaName='Github'/>
+        <ContactButton image={instagram} link='https://instagram.com/matheusmoreiradesantana' socialMediaName='Instagram'/>
+        <ContactButton image={linkedin} link='https://www.linkedin.com/in/matheus-moreira-7b5605204' socialMediaName='linkedin'/>
+        <ContactButton image={gmail} link='mailto:matheus.m.santana87@gmail.com' socialMediaName='gmail'/>
       </div>
     </Wrapper>
   )

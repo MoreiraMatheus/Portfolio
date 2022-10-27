@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContactButton = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,13 @@ export const ContactButton = styled.div`
   overflow: hidden;
   cursor: pointer;
 
-  & > img{
+  & > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & > a > img{
     width: 80%;
     /* margin: 10%; */
   }
