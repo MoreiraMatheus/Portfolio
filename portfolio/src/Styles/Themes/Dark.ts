@@ -8,6 +8,7 @@ export const darkTheme = {
     backgroundSection: colors.neutral["neutral-600"],
     title: colors.indigo["indigo-500"],
     text: colors.neutral["neutral-50"],
+    textSection: colors.neutral["neutral-50"],
     themeSwitcher: colors.indigo["indigo-700"],
     themeSwitcherButton: colors.indigo["indigo-900"],
     pannelBaseColor: colors.neutral["neutral-400"],

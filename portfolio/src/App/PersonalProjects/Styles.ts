@@ -43,7 +43,7 @@ export const Project = styled.div`
   }
 
   > p{
-    color: black;
+    color: ${({theme})=>theme.colors.textSection};
     border-top: 2px solid ${({theme}) => theme.colors.title};
     padding: 8px;
   }

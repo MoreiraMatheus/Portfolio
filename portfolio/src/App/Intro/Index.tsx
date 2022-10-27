@@ -1,6 +1,6 @@
 import {Wrapper} from './Styles'
 
-import fotoPerfil from '../../assets/img/foto-perfil.png'
+import fotoPerfil from '../../assets/generalmages/foto-perfil.png'
 
 export function Intro(){
   return(

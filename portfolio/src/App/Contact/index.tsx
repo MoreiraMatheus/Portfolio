@@ -1,9 +1,9 @@
 import { Wrapper } from './Styles'
 
-import github from '../../assets/socialMedia/github-icon.svg'
-import instagram from '../../assets/socialMedia/instagram-icon.svg'
-import linkedin from '../../assets/socialMedia/linkedin-icon.svg'
-import gmail from '../../assets/socialMedia/gmail-icon.svg'
+import github from '../../assets/socialMediaImages/github-icon.svg'
+import instagram from '../../assets/socialMediaImages/instagram-icon.svg'
+import linkedin from '../../assets/socialMediaImages/linkedin-icon.svg'
+import gmail from '../../assets/socialMediaImages/gmail-icon.svg'
 
 import { Title } from '../../Components/Title/Styles'
 import { ContactButton } from '../../Components/ContactButton/index'
