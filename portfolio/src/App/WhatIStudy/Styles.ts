@@ -11,6 +11,6 @@ export const Wrapper = styled.div`
     row-gap: 56px;
     margin: 0 auto;
     width: 81%;
-    height: 316px;
+    min-height: 130px;
   }
 `
