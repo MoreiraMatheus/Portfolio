@@ -16,5 +16,6 @@ export const Wrapper = styled.div`
     text-align: center;
     font-size: 28px;
     color: ${({theme}) => theme.colors.title};
+    font-family: 'Press Start 2P', cursive;
   }
 `
