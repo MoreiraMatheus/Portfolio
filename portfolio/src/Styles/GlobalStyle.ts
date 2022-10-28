@@ -29,6 +29,9 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${({theme}) => theme.colors.backgroundSection};
     width: 100%;
     height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 `
 

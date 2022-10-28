@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import GlobalStyle from "../Styles/GlobalStyle";
 import { ThemeProvider } from 'styled-components'
 
@@ -10,12 +12,22 @@ import { WhatIStudy } from './WhatIStudy/index'
 import { PersonalProjects } from './PersonalProjects/index'
 import { Contact } from './Contact/index'
 
+import { ThemeSwitcher } from '../Components/ThemeSwitcher'
+
 function App() {
+  const [currentTheme, setCurrentTheme] = useState(darkTheme)
+
   return (
     <>
-      <ThemeProvider theme={darkTheme}>
+      <ThemeProvider theme={currentTheme}>
         <GlobalStyle/>
-        <header></header>
+        <header>
+          <ThemeSwitcher 
+            currentTheme={currentTheme} 
+            changeTheme={setCurrentTheme}
+            themeOptions={[darkTheme, lightTheme]}
+          />
+        </header>
 
         <Intro/>
 
