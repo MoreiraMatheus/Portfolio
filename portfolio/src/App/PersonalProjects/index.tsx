@@ -12,6 +12,8 @@ import Cronometro from '../../assets/projectsImages/Cronometro.png'
 import Pokedex from '../../assets/projectsImages/Pokedex.png'
 import TrocaDeTema from '../../assets/projectsImages/TrocaDeTema.png'
 
+const pythonProjectsImage = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg'
+
 interface project{
   key:string;
   image:string;
@@ -29,6 +31,7 @@ const projects:Array<project> = [
   {key:'7', image: Cronometro, title: 'Cronômetro', description: 'descrição'},
   {key:'8', image: Pokedex, title: 'Pokedex', description: 'descrição'},
   {key:'9', image: TrocaDeTema, title: 'Troca de tema', description: 'descrição'},
+  {key:'10', image: pythonProjectsImage, title: 'Organizador de arquivos', description: 'descrição'},
 ]
 
 export function PersonalProjects(){

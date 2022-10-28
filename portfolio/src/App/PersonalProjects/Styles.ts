@@ -40,6 +40,7 @@ export const Project = styled.div`
 
   > img{
     width: 90%;
+    max-height: 224px;
   }
 
   > p{
