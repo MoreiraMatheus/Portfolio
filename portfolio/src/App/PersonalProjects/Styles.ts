@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   background-color: ${({theme}) => theme.colors.backgroundSection};
   padding-bottom: 60px;
-`
+  `
 
 export const Slider = styled.div`
+  display: flex;
+  column-gap: 24px;
   width: 80%;
   margin: 0 auto;
   padding-bottom: 8px;
-  display: flex;
-  column-gap: 24px;
   overflow-x: auto; 
 
   ::-webkit-scrollbar{
