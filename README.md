@@ -2,13 +2,6 @@
     💻<h1>Meu portfólio </h1>
 </div>
 
-<<<<<<< HEAD
-![Resultado final do projeto](portfolio/src/img/outros/preview.png)
-
-
-
-=======
->>>>>>> 450363905c6b9844e3355994991c8eb213111a94
 <div align='center'>
     <a href="https://moreiramatheus.github.io/Portfolio/portfolio/src/pages">Clique aqui para visitar meu portfolio na web</a>
 </div>
@@ -30,11 +23,6 @@ Tenho como meta de me tornar um desenvolvedor mobile e criar apps que sejam utei
 * CSS
 * JavaScript
 
-## Projetos 🔧
-* [Calculadora usando JS](https://moreiramatheus.github.io/calculadora-js/)
-* [Tela de login](https://moreiramatheus.github.io/tela-de-login/)
-* [Pokedex](https://moreiramatheus.github.io/Pokedex/)
-* [Site que troca de tema](https://moreiramatheus.github.io/troca-de-tema/)
 
 >⚠️ **Aviso!** ⚠️
 >
