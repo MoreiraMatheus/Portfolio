@@ -2,13 +2,20 @@
     💻<h1>Meu portfólio </h1>
 </div>
 
+<<<<<<< HEAD
 ![Resultado final do projeto](portfolio/src/img/outros/preview.png)
 
 
 
+=======
+>>>>>>> 450363905c6b9844e3355994991c8eb213111a94
 <div align='center'>
     <a href="https://moreiramatheus.github.io/Portfolio/portfolio/src/pages">Clique aqui para visitar meu portfolio na web</a>
 </div>
+
+>⚠️ **Aviso!** ⚠️
+>
+> No momento o projeto não se encontra disponivel na web pois está em manutenção
 
 
 ## Sobre mim 😄
