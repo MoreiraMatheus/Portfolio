@@ -6,6 +6,10 @@
     <a href="https://moreiramatheus.github.io/Portfolio/portfolio/src/pages">Clique aqui para visitar meu portfolio na web</a>
 </div>
 
+>⚠️ **Aviso!** ⚠️
+>
+> No momento o projeto não se encontra disponivel na web pois está em manutenção
+
 
 ## Sobre mim 😄
 Sou estudante e programador em busca de uma oportunidade nesse ramo que tanto gosto.
