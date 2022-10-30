@@ -5,8 +5,10 @@ export const Wrapper = styled.div`
 
   & > div{
     display: flex;
-    column-gap: 80px;
     justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 8%;
+    row-gap: 16px;
     width: 80%;
     /* background-color: blue; */
     margin: 0 auto;

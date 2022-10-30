@@ -1,3 +1,5 @@
+import { Lightbulb } from 'phosphor-react'
+
 import { Wrapper } from './Styles'
 
 interface ThemeSwitcherProps{
@@ -15,7 +17,12 @@ export function ThemeSwitcher({currentTheme, changeTheme, themeOptions}:ThemeSwi
           ? changeTheme(themeOptions[1])
           : changeTheme(themeOptions[0])
         }}/>
-        <div></div>
+        <div>
+          <Lightbulb
+            size='100%'  
+            weight='bold'
+          />
+        </div>
       </div>
     </Wrapper>
   )

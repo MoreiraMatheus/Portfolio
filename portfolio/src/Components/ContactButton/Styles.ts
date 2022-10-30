@@ -19,6 +19,5 @@ export const Wrapper = styled.div`
 
   & > a > img{
     width: 80%;
-    /* margin: 10%; */
   }
 `

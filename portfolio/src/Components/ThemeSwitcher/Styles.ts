@@ -5,28 +5,25 @@ export const Wrapper = styled.div`
 
 
   & > div{
-    width: 100px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: ${({theme}) => theme.colors.themeSwitcher};
-    border-radius: 50px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
-    /* justify-content: flex-start; */
 
     & > input{
       position: absolute;
-      width: 100px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
       cursor: pointer;
       opacity: 0;
     }
 
-    & > div{
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      margin: 10px;
-      background-color: ${({theme}) => theme.colors.themeSwitcherButton};
+    & > div{ 
+      width: 20px;
+      height: 20px;
+      margin: auto;
     }
   }
 `
