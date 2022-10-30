@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   header{
-    background-color: ${({theme}) => theme.colors.backgroundSection};
+    background-color: transparent;
     width: 100%;
     padding: 1vh;
     display: flex;

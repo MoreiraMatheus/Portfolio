@@ -11,7 +11,6 @@ declare module 'styled-components'{
       text: string;
       textSection: string,
       themeSwitcher: string;
-      themeSwitcherButton: string;
       pannelBaseColor: string;
     }
   }

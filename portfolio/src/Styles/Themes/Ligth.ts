@@ -10,7 +10,6 @@ export const lightTheme = {
     text: colors.neutral["neutral-50"],
     textSection: colors.neutral["neutral-900"],
     themeSwitcher: colors.indigo["indigo-900"],
-    themeSwitcherButton: colors.indigo["indigo-700"],
     pannelBaseColor: colors.neutral["neutral-200"],
   }
 }
