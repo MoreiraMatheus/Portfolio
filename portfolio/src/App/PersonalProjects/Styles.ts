@@ -43,9 +43,23 @@ export const Project = styled.div`
     max-height: 224px;
   }
 
+  a{
+    color: ${({theme})=>theme.colors.pannelBaseColor};
+  }
+  a:hover{
+    color: ${({theme})=>theme.colors.title};
+    text-decoration: underline;
+    transition: color 0.2s ease-in;
+  }
+
+  abbr{
+    text-decoration: none;
+  }
+
   > p{
     color: ${({theme})=>theme.colors.textSection};
-    border-top: 2px solid ${({theme}) => theme.colors.title};
+    width: 80%;
+    text-align: center;
     padding: 8px;
   }
 `
