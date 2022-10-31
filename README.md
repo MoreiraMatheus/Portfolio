@@ -3,7 +3,8 @@
 </div>
 
 <div align='center'>
-    <a href="https://moreiramatheus.github.io/Portfolio/portfolio/src/pages">Clique aqui para visitar meu portfolio na web</a>
+    <img src='portfolio/src/assets/generalmages/Preview.png' alt='preview projeto'/>
+    <a href="">Clique aqui para visitar meu portfolio na web</a>
 </div>
 
 
@@ -15,15 +16,15 @@ Atualmente estou cursando Análise e desenvolvimento de sistemas e busco sempre 
 Tenho como meta de me tornar um desenvolvedor mobile e criar apps que sejam uteis no dia a dia das pessoas.
 
 ## O que estudo 📕
-* HTML
-* CSS
+* Python
+* TypeScript
 * JavaScript
+* HTML5
+* CSS3
+* React.JS
+* Styled-components
+* Git
 
-## Projetos 🔧
-* [Calculadora usando JS](https://moreiramatheus.github.io/calculadora-js/)
-* [Tela de login](https://moreiramatheus.github.io/tela-de-login/)
-* [Pokedex](https://moreiramatheus.github.io/Pokedex/)
-* [Site que troca de tema](https://moreiramatheus.github.io/troca-de-tema/)
 
 >⚠️ **Aviso!** ⚠️
 >
