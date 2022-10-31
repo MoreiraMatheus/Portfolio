@@ -11,6 +11,14 @@ export const Wrapper = styled.div`
   overflow: hidden;
   cursor: pointer;
 
+  &:hover{
+    transition: 
+      box-shadow 0.4s ease-in-out,
+      transform 0.4s ease-in-out;
+    box-shadow: 0 0 5px ${({theme}) => theme.colors.textSection};
+    transform: scale(1.1, 1.1);
+  }
+
   & > a{
     display: flex;
     justify-content: center;

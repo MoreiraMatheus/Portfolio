@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   width: 80%;
   margin: 80px auto;
 
-  @media(max-width: 400px){
+  @media(max-width: 425px){
     flex-direction: column;
   }
 
@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
     height: 300px;
     width: 300px;
     
-    @media(max-width: 400px){
+    @media(max-width: 425px){
       height: 200px;
       width: 200px;
     }
@@ -27,5 +27,9 @@ export const Wrapper = styled.div`
     font-size: 28px;
     color: ${({theme}) => theme.colors.title};
     font-family: 'Press Start 2P', cursive;
+
+    @media(max-width: 425px){
+      margin-top: 40px;
+    }
   }
 `

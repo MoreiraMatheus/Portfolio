@@ -24,6 +24,10 @@ export const Slider = styled.div`
     border: 1px solid ${({theme})=>theme.colors.pannelBaseColor};
     border-radius: 5px;
   }
+
+  @media (max-width: 375px) {
+    width: 90%;
+  }
 `
 
 export const Project = styled.div`
@@ -31,6 +35,7 @@ export const Project = styled.div`
   flex-direction: column;
   align-items: center;
   width: 40vw;
+  min-width: 285px;
   max-width: 600px;
   height: 400px;
   padding: 8px;
@@ -38,9 +43,22 @@ export const Project = styled.div`
   border-radius: 4px;
   background-color: ${({theme}) => theme.colors.pannelBaseColor};
 
+  @media (max-width: 375px) {
+    /* width: ; */
+  }
+
   > img{
     width: 90%;
-    max-height: 224px;
+    height: 60%;
+    
+    @media (max-width: 1285px) {
+      width: 90%;
+      height: 53%;
+    }
+    @media (max-width: 768px) {
+      width: 90%;
+      height: 40%;
+    }
   }
 
   a{

@@ -9,6 +9,14 @@ export const Wrapper  = styled.div`
   border-radius: 8px;
   background-color: ${({theme}) => theme.colors.pannelBaseColor};
 
+  &:hover{
+    transition: 
+      box-shadow 0.3s ease-in-out,
+      transform 0.3s ease-in-out;
+    box-shadow: 0 0 5px ${({theme}) => theme.colors.textSection};
+    transform: scale(1.1, 1.1);
+  }
+
   & > img{
     width: 100px;
     margin: 0 8px;
