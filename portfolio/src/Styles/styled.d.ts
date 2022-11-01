@@ -9,8 +9,8 @@ declare module 'styled-components'{
       backgroundSection: string;
       title: string;
       text: string;
+      textSection: string,
       themeSwitcher: string;
-      themeSwitcherButton: string;
       pannelBaseColor: string;
     }
   }

@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding-bottom: 75px;
+  padding-bottom: 80px;
 
   & > div{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    column-gap: 7.6%;
-    row-gap: 56px;
+    column-gap: 8%;
+    row-gap: 16px;
+    width: 80%;
+    /* background-color: blue; */
     margin: 0 auto;
-    width: 81%;
-    height: 316px;
   }
 `
