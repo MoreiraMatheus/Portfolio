@@ -11,6 +11,11 @@ export const Wrapper = styled.div`
     border-radius: 50%;
     display: flex;
     align-items: center;
+    
+    &:hover{
+      transition: box-shadow 0.3s ease-in-out;
+      ${({theme}) => theme.title === 'dark' ? 'box-shadow: 0px 0px 7px white;' : ''}
+    }
 
     & > input{
       position: absolute;
