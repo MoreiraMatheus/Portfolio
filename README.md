@@ -3,7 +3,8 @@
 </div>
 
 <div align='center'>
-    <a href="https://moreiramatheus.github.io/Portfolio/portfolio/src/pages">Clique aqui para visitar meu portfolio na web</a>
+    <img src='portfolio/src/assets/generalmages/Preview.png' alt='preview projeto'/>
+    <a href="">Clique aqui para visitar meu portfolio na web</a>
 </div>
 
 >⚠️ **Aviso!** ⚠️
@@ -19,9 +20,14 @@ Atualmente estou cursando Análise e desenvolvimento de sistemas e busco sempre 
 Tenho como meta de me tornar um desenvolvedor mobile e criar apps que sejam uteis no dia a dia das pessoas.
 
 ## O que estudo 📕
-* HTML
-* CSS
+* Python
+* TypeScript
 * JavaScript
+* HTML5
+* CSS3
+* React.JS
+* Styled-components
+* Git
 
 
 >⚠️ **Aviso!** ⚠️
