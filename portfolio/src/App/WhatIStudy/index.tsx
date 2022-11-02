@@ -5,7 +5,7 @@ import { Tecnology } from '../../Components/Tecnology/index'
 
 export function WhatIStudy(){
   return(
-    <Wrapper>
+    <Wrapper translate='no'>
       <Title>O que estudo</Title>
       <div>
         <Tecnology 

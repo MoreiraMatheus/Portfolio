@@ -37,7 +37,7 @@ const projects:Array<project> = [
 
 export function PersonalProjects(){
   return(
-    <Wrapper>
+    <Wrapper translate='no'>
       <Title contrast>Projetos</Title>
       <Slider>
         {projects.map(item =>(
