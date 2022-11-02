@@ -1,6 +1,9 @@
-import { Wrapper, Slider, Project } from './Styles'
+import { Wrapper, Slider, Project, ButtonArea } from './Styles'
 
 import { Title } from '../../Components/Title/Styles'
+
+import { CaretRight, CaretLeft } from 'phosphor-react'
+import { useRef, MouseEvent } from 'react'
 
 import GithubSearch from '../../assets/projectsImages/GithubSearch.png'
 import JogoDaVelha from '../../assets/projectsImages/JogoDaVelha.png'
@@ -36,10 +39,21 @@ const projects:Array<project> = [
 ]
 
 export function PersonalProjects(){
+  const carrossel = useRef<HTMLDivElement>(null!)
+
+  const handleLeftClick = (e:MouseEvent) =>{
+    e.preventDefault();
+    carrossel.current.scrollLeft -= carrossel.current.offsetWidth;
+  }
+  const handleRightClick = (e:MouseEvent) =>{
+    e.preventDefault();
+    carrossel.current.scrollLeft += carrossel.current.offsetWidth
+  }
+
   return(
     <Wrapper>
       <Title contrast>Projetos</Title>
-      <Slider>
+      <Slider ref={carrossel}>
         {projects.map(item =>(
           <Project key={item.key}>
             <img src={item.image} alt="foto-projeto"/>
@@ -50,6 +64,20 @@ export function PersonalProjects(){
           </Project>
         ))}
       </Slider>
+      <ButtonArea>
+        <button onClick={handleLeftClick}>
+          <CaretLeft 
+            weight='bold'
+            size='70%'
+          />
+        </button>
+        <button onClick={handleRightClick}>
+          <CaretRight 
+            weight='bold'
+            size='70%'
+          />
+        </button>
+      </ButtonArea>
     </Wrapper>
   )
 }
