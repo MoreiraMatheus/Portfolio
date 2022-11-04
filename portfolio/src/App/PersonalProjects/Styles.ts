@@ -10,23 +10,12 @@ export const Slider = styled.div`
   column-gap: 24px;
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 8px;
+  padding: 0 20%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 
-  /* ::-webkit-scrollbar{
-      background-color: ${({theme})=>theme.colors.pannelBaseColor};
-      height: 10px;
-      border-radius: 5px;
-  }
-
-  ::-webkit-scrollbar-thumb{
-    background-color: ${({theme})=>theme.colors.backgroundSection};
-    border: 1px solid ${({theme})=>theme.colors.pannelBaseColor};
-    border-radius: 5px;
-  } */
-
-  @media (max-width: 375px) {
+  @media (max-width: 425px) {
+    padding: 0;
     width: 90%;
   }
 `
@@ -35,31 +24,16 @@ export const Project = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40vw;
-  min-width: 285px;
-  max-width: 600px;
+  width: 285px;
   height: 400px;
   padding: 8px;
   flex-shrink: 0;
   border-radius: 4px;
   background-color: ${({theme}) => theme.colors.pannelBaseColor};
 
-  @media (max-width: 375px) {
-    /* width: ; */
-  }
-
   > img{
     width: 90%;
-    height: 60%;
-    
-    @media (max-width: 1285px) {
-      width: 90%;
-      height: 53%;
-    }
-    @media (max-width: 768px) {
-      width: 90%;
-      height: 40%;
-    }
+    height: 40%;
   }
 
   a{

@@ -43,11 +43,11 @@ export function PersonalProjects(){
 
   const handleLeftClick = (e:MouseEvent) =>{
     e.preventDefault();
-    carrossel.current.scrollLeft -= carrossel.current.offsetWidth;
+    carrossel.current.scrollLeft -= 309;
   }
   const handleRightClick = (e:MouseEvent) =>{
     e.preventDefault();
-    carrossel.current.scrollLeft += carrossel.current.offsetWidth
+    carrossel.current.scrollLeft += 309;
   }
 
   return(
