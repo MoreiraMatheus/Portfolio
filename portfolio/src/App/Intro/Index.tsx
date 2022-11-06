@@ -6,7 +6,10 @@ export function Intro(){
   return(
     <Wrapper>
       <img src={fotoPerfil} alt="Foto perfil"/>
-      <h1>Olá, me chamo Matheus Moreira e esse é meu portfólio, seja bem vindo</h1>
+      <div>
+        <h1>Olá, me chamo Matheus Moreira e esse é meu portfólio, seja bem vindo</h1>
+        <a href="../../../public/Curriculo%20Matheus%20M%20desenvolvedor.pdf">Clique aqui para baixar meu curriculo</a>
+      </div>
     </Wrapper>
   )
 }

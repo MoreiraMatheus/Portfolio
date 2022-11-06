@@ -12,24 +12,43 @@ export const Wrapper = styled.div`
     flex-direction: column;
   }
 
-  img{
-    height: 300px;
-    width: 300px;
+  > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      height: 300px;
+      width: 300px;
+      
+      @media(max-width: 425px){
+        height: 200px;
+        width: 200px;
+      }
+    }
+  
+    h1{
+      text-align: center;
+      font-size: 28px;
+      color: ${({theme}) => theme.colors.title};
+      font-family: 'Press Start 2P', cursive;
+      
+      @media(max-width: 425px){
+        margin-top: 40px;
+      }
+    }
     
-    @media(max-width: 425px){
-      height: 200px;
-      width: 200px;
+    a{
+      margin-top: 16px;
+      padding: 8px;
+      color: ${({theme}) => theme.colors.textSection};
+      border-radius: 16px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color .2s linear;
     }
-  }
-
-  h1{
-    text-align: center;
-    font-size: 28px;
-    color: ${({theme}) => theme.colors.title};
-    font-family: 'Press Start 2P', cursive;
-
-    @media(max-width: 425px){
-      margin-top: 40px;
+    a:hover{
+      background-color: ${({theme})=>theme.colors.title};
     }
-  }
+  } 
 `

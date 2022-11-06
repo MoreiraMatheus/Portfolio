@@ -33,7 +33,7 @@ export const Project = styled.div`
 
   > img{
     width: 90%;
-    height: 40%;
+    height: 35%;
   }
 
   a{
