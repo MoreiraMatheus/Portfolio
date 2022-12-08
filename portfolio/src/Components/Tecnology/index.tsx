@@ -17,8 +17,8 @@ export function Tecnology({image, tecnologyName, description}:TecnologyProps){
         <img src={image} alt={`logo ${tecnologyName}`} />
         <span>{tecnologyName}</span>
       </Wrapper>
-      <Popup open={modalState}>
-        <div>
+      <Popup open={modalState} >
+        <div >
           <p>{description}</p>
           <button onClick={()=>{setModalState(false)}}>X</button>
         </div>
