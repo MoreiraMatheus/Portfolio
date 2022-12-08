@@ -25,6 +25,7 @@ interface project{
   description:string;
 }
 
+// Colocar as descrições em uma pasta separada para não poluir o código
 const projects:Array<project> = [
   {key:'1', link: 'https://github.com/MoreiraMatheus/github-search', image: GithubSearch, title: 'Github search', description: 'Página que busca perfis no Github utilizando a API da plataforma (a título de curiosidade foi meu primeiro projeto com React.JS e me orgulho dele até hoje)'},
   {key:'2', link: 'https://github.com/MoreiraMatheus/People-Register-Sistem', image: PeopleRegisterSistem, title: 'People register sistem', description: 'Projeto que cadastra pessoas e salva os dados cadastrados no LocalStorage do usuário'},

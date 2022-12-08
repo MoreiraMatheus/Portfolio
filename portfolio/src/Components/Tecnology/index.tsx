@@ -19,8 +19,9 @@ export function Tecnology({image, tecnologyName, description}:TecnologyProps){
       </Wrapper>
       <Popup open={modalState} >
         <div >
-          <p>{description}</p>
+          {/* Adicionar um icone da biblioteca phosphor icon aqui */}
           <button onClick={()=>{setModalState(false)}}>X</button>
+          <p>{description}</p>
         </div>
       </Popup>
     </>
