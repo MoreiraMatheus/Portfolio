@@ -34,17 +34,20 @@ export const Wrapper = styled.div`
 `
 
 export const Popup = styled.dialog`
-  width: 70vw;
-  height: 50vh;
-  margin: auto;
-  border-radius: 16px;
-  overflow: hidden;
-  border: none;
-  box-shadow: 0 0 10px #ccc;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;  
   
   & > div{
-    width: 100%;
-    height: 100%;
+    width: 90vw;
+    height: 90vh;
+    margin: 5vh 5vw;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 16px;
     background-color: ${({theme})=>theme.colors.pannelBaseColor};
   }
 
