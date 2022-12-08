@@ -53,8 +53,10 @@ export const Popup = styled.dialog`
   
   & > div {
     width: 90vw;
-    height: 90vh;
-    margin: 5vh 5vw;
+    padding: 10px;
+    /* Devolver a altura fixa posteriormente */
+    /* height: 90vh; */
+    margin: 40vh 5vw;
     box-shadow: 0 0 5px #ccc;
     border-radius: 16px;
     background-color: ${({ theme }) => theme.colors.pannelBaseColor};
@@ -64,10 +66,16 @@ export const Popup = styled.dialog`
   & > div > button {
     width: 30px;
     height: 30px;
-    margin: 10px;
     background-color: ${({ theme }) => theme.colors.title};
     border: none;
     border-radius: 50%;
     cursor: pointer;
+  }
+
+  & > div > p{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 16px;
+    color: ${({theme})=>theme.colors.textSection};
   }
 `;
