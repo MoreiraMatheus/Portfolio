@@ -28,7 +28,6 @@ export function Tecnology({
       </Wrapper>
       <Popup open={modalState}>
         <div>
-          {/* Adicionar um icone da biblioteca phosphor icon aqui */}
           <button
             onClick={() => {
               setModalState(false);
