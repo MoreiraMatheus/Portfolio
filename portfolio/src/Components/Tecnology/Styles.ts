@@ -59,11 +59,16 @@ export const Popup = styled.dialog`
     left: 50%;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    min-width: 60vw;
+    min-height: 50vh;
     padding: 10px;
     box-shadow: 0 0 5px #ccc;
     border-radius: 16px;
     background-color: ${({ theme }) => theme.colors.others.pannelBaseColor};
+    
+    @media (max-width: 440px) {
+      min-width: 85vw;
+    }
 
     & > button {
       width: 30px;

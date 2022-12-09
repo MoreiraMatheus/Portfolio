@@ -13,7 +13,7 @@ export function Tecnology({
   image,
   tecnologyName,
   description,
-  key
+  key,
 }: TecnologyProps) {
   const [modalState, setModalState] = useState(false);
 
@@ -28,14 +28,14 @@ export function Tecnology({
         <img src={image} alt={`logo ${tecnologyName}`} />
         <TecnologyName>{tecnologyName}</TecnologyName>
       </Wrapper>
-      
+
       <Popup open={modalState}>
         <div>
           <button
             onClick={() => {
               setModalState(false);
             }}
-            >
+          >
             <X size="20px" weight="bold" />
           </button>
           <img src={image} alt={`logo ${tecnologyName}`} />
