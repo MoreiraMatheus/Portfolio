@@ -12,7 +12,7 @@ export const TecnologiesIStudy: TecnologyIStudy[] = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     tecnologyName: "Python",
-    id: '1'
+    id: "1",
   },
   {
     description:
@@ -20,7 +20,7 @@ export const TecnologiesIStudy: TecnologyIStudy[] = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
     tecnologyName: "TypeScript",
-    id: '2'
+    id: "2",
   },
   {
     description:
@@ -28,7 +28,7 @@ export const TecnologiesIStudy: TecnologyIStudy[] = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     tecnologyName: "JavaScript",
-    id: '3'
+    id: "3",
   },
   {
     description:
@@ -36,7 +36,7 @@ export const TecnologiesIStudy: TecnologyIStudy[] = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     tecnologyName: "HTML5",
-    id: '4'
+    id: "4",
   },
   {
     description:
@@ -44,7 +44,7 @@ export const TecnologiesIStudy: TecnologyIStudy[] = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     tecnologyName: "CSS3",
-    id: '5'
+    id: "5",
   },
   {
     description:
@@ -52,7 +52,7 @@ export const TecnologiesIStudy: TecnologyIStudy[] = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     tecnologyName: "React.JS",
-    id: '6'
+    id: "6",
   },
   {
     description:
@@ -60,7 +60,7 @@ export const TecnologiesIStudy: TecnologyIStudy[] = [
     image:
       "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
     tecnologyName: "Styled-components",
-    id: '7'
+    id: "7",
   },
   {
     description:
@@ -68,6 +68,6 @@ export const TecnologiesIStudy: TecnologyIStudy[] = [
     image:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     tecnologyName: "Git",
-    id: '8'
+    id: "8",
   },
 ];
