@@ -2,11 +2,11 @@ import styled, { keyframes } from "styled-components";
 
 const popupApearing = keyframes`
   0%{
-    transform: translateY(-100%);
+    transform: translate(-50%, -100%);
     opacity: 0;
   }
   100%{
-    transform: translateY(0%);
+    transform: translate(-50%, -50%);
     opacity: 1;
   }
 `
@@ -30,16 +30,6 @@ export const Wrapper = styled.div`
     width: 100px;
     margin: 0 8px;
   }
-
-  & > span {
-    margin: 0 auto;
-    padding: 4px;
-    color: ${({ theme }) => theme.colors.textSection};
-    border-bottom: 2px solid ${({ theme }) => theme.colors.title};
-    font-weight: bold;
-    font-size: 1.4em;
-    text-align: center;
-  }
 `;
 
 export const Popup = styled.dialog`
@@ -52,33 +42,53 @@ export const Popup = styled.dialog`
   border: none;
   
   & > div {
-    width: 90vw;
+    animation: .3s ${popupApearing} linear;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
     padding: 10px;
-    /* Devolver a altura fixa posteriormente */
-    /* height: 90vh; */
-    margin: 40vh 5vw;
     box-shadow: 0 0 5px #ccc;
     border-radius: 16px;
     background-color: ${({ theme }) => theme.colors.pannelBaseColor};
-    animation: .3s ${popupApearing} linear;
+
+    & > button {
+      width: 30px;
+      height: 30px;
+      background-color: ${({ theme }) => theme.colors.title};
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    & > img{
+      width: 100px;
+      height: 100px;
+      margin: auto;
+    }
+  
+    & > p{
+      text-align: center;
+      font-size: 1.2em;
+      margin: 16px;
+      color: ${({theme})=>theme.colors.textSection};
+    }
   }
 
-  & > div > button {
-    width: 30px;
-    height: 30px;
-    background-color: ${({ theme }) => theme.colors.title};
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  & > div > p{
-    text-align: center;
-    font-size: 1.2em;
-    margin: 16px;
-    color: ${({theme})=>theme.colors.textSection};
-  }
 `;
+
+export const TecnologyName = styled.span`
+  margin: 0 auto;
+  padding: 4px;
+  color: ${({ theme }) => theme.colors.textSection};
+  border-bottom: 2px solid ${({ theme }) => theme.colors.title};
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+`
