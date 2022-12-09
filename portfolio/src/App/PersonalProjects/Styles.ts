@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: ${({theme}) => theme.colors.backgroundSection};
+  background-color: ${({theme}) => theme.colors.others.backgroundSection};
   padding-bottom: 60px;
 `
 
@@ -29,7 +29,7 @@ export const Project = styled.div`
   padding: 8px;
   flex-shrink: 0;
   border-radius: 4px;
-  background-color: ${({theme}) => theme.colors.pannelBaseColor};
+  background-color: ${({theme}) => theme.colors.others.pannelBaseColor};
 
   > img{
     width: 90%;
@@ -37,10 +37,10 @@ export const Project = styled.div`
   }
 
   a{
-    color: ${({theme})=>theme.colors.pannelBaseColor};
+    color: ${({theme})=>theme.colors.others.pannelBaseColor};
   }
   a:hover{
-    color: ${({theme})=>theme.colors.title};
+    color: ${({theme})=>theme.colors.text.title};
     text-decoration: underline;
     transition: color 0.2s ease-in;
   }
@@ -50,7 +50,7 @@ export const Project = styled.div`
   }
 
   > p{
-    color: ${({theme})=>theme.colors.textSection};
+    color: ${({theme})=>theme.colors.text.textSection};
     width: 80%;
     text-align: center;
     padding: 8px;
@@ -69,7 +69,7 @@ export const ButtonArea = styled.div`
     justify-content: center;
     align-items: center;
     border: none;
-    background-color: ${({theme})=>theme.colors.pannelBaseColor};
+    background-color: ${({theme})=>theme.colors.others.pannelBaseColor};
     height: 40px;
     width: 40px;
     cursor: pointer;

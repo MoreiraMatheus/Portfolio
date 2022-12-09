@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: ${({theme}) => theme.colors.backgroundSection};
+  background-color: ${({theme}) => theme.colors.others.backgroundSection};
     text-align: center;
     padding-bottom: 54px;
 

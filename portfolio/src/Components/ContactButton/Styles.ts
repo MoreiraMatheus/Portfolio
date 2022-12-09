@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   align-items: center;
   width: 100px;
   height: 100px;
-  background-color: ${({theme}) => theme.colors.pannelBaseColor};
+  background-color: ${({theme}) => theme.colors.others.pannelBaseColor};
   border-radius: 8px;
   overflow: hidden;
   cursor: pointer;
@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
     transition: 
       box-shadow 0.4s ease-in-out,
       transform 0.4s ease-in-out;
-    box-shadow: 0 0 5px ${({theme}) => theme.colors.textSection};
+    box-shadow: 0 4px 8px ${({theme}) => theme.colors.text.textSectionShadow};
     transform: scale(1.1, 1.1);
   }
 

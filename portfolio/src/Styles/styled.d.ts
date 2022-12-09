@@ -5,13 +5,19 @@ declare module 'styled-components'{
     title: string;
 
     colors: {
-      background: string;
-      backgroundSection: string;
-      title: string;
-      text: string;
-      textSection: string,
-      themeSwitcher: string;
-      pannelBaseColor: string;
+      text:{
+        title: string;
+        text: string;
+        textSection: string,
+        textSectionShadow: string,
+      },
+      others:{
+        background: string;
+        backgroundSection: string;
+        themeSwitcher: string;
+        pannelBaseColor: string;
+        arrowColor: string;
+      }
     }
   }
 }

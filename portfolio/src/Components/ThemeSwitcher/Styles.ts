@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   & > div{
     width: 40px;
     height: 40px;
-    background-color: ${({theme}) => theme.colors.themeSwitcher};
+    background-color: ${({theme}) => theme.colors.others.themeSwitcher};
     border-radius: 50%;
     display: flex;
     align-items: center;

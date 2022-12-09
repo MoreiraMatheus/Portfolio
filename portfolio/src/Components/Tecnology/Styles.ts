@@ -1,5 +1,14 @@
 import styled, { keyframes } from "styled-components";
 
+const darkeningBackground = keyframes`
+  0%{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  100%{
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+`
+
 const popupApearing = keyframes`
   0%{
     transform: translate(-50%, -100%);
@@ -18,11 +27,11 @@ export const Wrapper = styled.div`
   height: 130px;
   padding: 8px 12px 8px 4px;
   border-radius: 8px;
-  background-color: ${({ theme }) => theme.colors.pannelBaseColor};
+  background-color: ${({ theme }) => theme.colors.others.pannelBaseColor};
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 
   &:hover {
-    box-shadow: 0 0 5px ${({ theme }) => theme.colors.textSection};
+    box-shadow: 0 4px 8px ${({ theme }) => theme.colors.text.textSectionShadow};
     transform: scale(1.1, 1.1);
   }
 
@@ -33,12 +42,13 @@ export const Wrapper = styled.div`
 `;
 
 export const Popup = styled.dialog`
+  animation: .3s ${darkeningBackground} linear;
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   border: none;
   
   & > div {
@@ -53,12 +63,12 @@ export const Popup = styled.dialog`
     padding: 10px;
     box-shadow: 0 0 5px #ccc;
     border-radius: 16px;
-    background-color: ${({ theme }) => theme.colors.pannelBaseColor};
+    background-color: ${({ theme }) => theme.colors.others.pannelBaseColor};
 
     & > button {
       width: 30px;
       height: 30px;
-      background-color: ${({ theme }) => theme.colors.title};
+      background-color: ${({ theme }) => theme.colors.text.title};
       border: none;
       border-radius: 50%;
       cursor: pointer;
@@ -77,7 +87,7 @@ export const Popup = styled.dialog`
       text-align: center;
       font-size: 1.2em;
       margin: 16px;
-      color: ${({theme})=>theme.colors.textSection};
+      color: ${({theme})=>theme.colors.text.textSection};
     }
   }
 
@@ -86,8 +96,8 @@ export const Popup = styled.dialog`
 export const TecnologyName = styled.span`
   margin: 0 auto;
   padding: 4px;
-  color: ${({ theme }) => theme.colors.textSection};
-  border-bottom: 2px solid ${({ theme }) => theme.colors.title};
+  color: ${({ theme }) => theme.colors.text.textSection};
+  border-bottom: 2px solid ${({ theme }) => theme.colors.text.title};
   font-weight: bold;
   font-size: 1.4em;
   text-align: center;

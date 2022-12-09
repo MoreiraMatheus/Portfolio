@@ -1,13 +1,16 @@
-import { Wrapper, Slider, Project, ButtonArea } from "./Styles";
+import { useRef, MouseEvent } from "react";
 
+import { Wrapper, Slider, Project, ButtonArea } from "./Styles";
 import { Title } from "../../Components/Title/Styles";
+import { useTheme } from "styled-components";
 
 import { CaretRight, CaretLeft } from "phosphor-react";
-import { useRef, MouseEvent } from "react";
 
 import { projects } from "./personalProjects";
 
 export function PersonalProjects() {
+  const THEME = useTheme()
+
   const carrossel = useRef<HTMLDivElement>(null!);
 
   const handleLeftClick = (e: MouseEvent) => {
@@ -35,10 +38,10 @@ export function PersonalProjects() {
       </Slider>
       <ButtonArea>
         <button onClick={handleLeftClick}>
-          <CaretLeft weight="bold" size="70%" />
+          <CaretLeft weight="bold" size="70%" color={THEME.colors.others.arrowColor}/>
         </button>
         <button onClick={handleRightClick}>
-          <CaretRight weight="bold" size="70%" />
+          <CaretRight weight="bold" size="70%" color={THEME.colors.others.arrowColor} />
         </button>
       </ButtonArea>
     </Wrapper>

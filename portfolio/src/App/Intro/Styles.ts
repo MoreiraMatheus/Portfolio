@@ -30,7 +30,7 @@ export const Wrapper = styled.div`
     h1{
       text-align: center;
       font-size: 28px;
-      color: ${({theme}) => theme.colors.title};
+      color: ${({theme}) => theme.colors.text.title};
       font-family: 'Press Start 2P', cursive;
       
       @media(max-width: 425px){
@@ -41,14 +41,15 @@ export const Wrapper = styled.div`
     a{
       margin-top: 16px;
       padding: 8px;
-      color: ${({theme}) => theme.colors.textSection};
+      color: ${({theme}) => theme.colors.text.textSection};
       border-radius: 16px;
       text-decoration: none;
       font-weight: bold;
-      transition: background-color .2s linear;
+      transition: all .2s linear;
     }
     a:hover{
-      background-color: ${({theme})=>theme.colors.title};
+      background-color: ${({theme})=>theme.colors.text.title};
+      color: ${({theme})=>theme.colors.text.text};
     }
   } 
 `
