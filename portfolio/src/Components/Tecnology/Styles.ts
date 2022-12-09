@@ -70,6 +70,9 @@ export const Popup = styled.dialog`
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   & > div > p{
